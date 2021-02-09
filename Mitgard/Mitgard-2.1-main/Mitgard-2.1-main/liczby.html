@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Midgard</title>
+    <meta name="description"
+        content="Witaj w Midgardzie, poprowadź swoje królestwo, odkrywaj nowe krainy, prowadź wojny i rozwijaj technologie." />
+    <meta name="keywords" content="game, pomodoro, trial, simply, castome" />
+    <meta http-equiv="x-UA-Compatible" content="IE=edg,chrome=1" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="img/logo.jpg" alt="Midgard" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous" src="liczby.js">
+    </script>
+    <script type="text/javascript" src="liczby.js"></script>
+</head>
+
+<body class="background" onload="zmienslajd()">
+    <header id="topbar">
+        <a href="blog.html" title="meni">
+            <img src="img/midgar.jpg" width="1050" high="224" /></a><br />
+    </header>
+    <div class="rodzic">
+            <div id="blog" ;>Liczby</div>
+            <div id="blogtitle" ;>Sprawdź już dziś, czy ta liczba jest dodatnia, czy ujemna!!</div>
+            <article id="blogtext2" ;>
+                <br />
+                Męczysz się z Autyzmem i zawsze trudność ci sprawiało odrużnienie liczby parzystej od nieparzystej, nie ma
+                sprawy ta strona powstała właśnie dla ciebie wpisz w oknie liczbę której nie potrafisz przypisać do grupy
+                ujemnych lub dodatnich, a strona sama podpowie z jaką masz doczynienia. Miłej zabawy. ;)<br /><br />
+                <input type="text" id="pole" />
+                <input type="submit" value="sprawdź" onclick="sprawdz()" />
+                <div id="wynik"></div><br /><br />
+                A morze chciałbyś dowiedzieć się jakie liczby występują pomiędzy pięć a dziewięć, ale twoja niepełnosprawność
+                umysłowa również ci na to nie pozwala. Nic prostszego ta strona również rozwiązała twój problem. Wystaczy, że
+                poniżej w polu pierwszym wpiszesz najmniejszą liczbę ciągu który cię interesuje, a w drugim polu największą
+                liczbę twojego ciągu. Poczym naciśniesz przycisk podpisany jako "Pokaż"<br /><br />
+                <input type="text" id="pole1" />
+                <input type="text" id="pole2" />
+                <input type="submit" value="Pokaż" onclick="wypisz()" />
+                <div id="wynik1"></div><br /><br />
+                <b>Pozostając nadal w temacie ułomności umysłowych poniżej wżucam slajder z paroma ułomnymi memami o
+                    informatyce.</b><br /><br /><br />
+                <span onclick="ustawslajd(1)" style="cursor:pointer;">[ 1 ]</span>
+                <span onclick="ustawslajd(2)" style="cursor:pointer;">[ 2 ]</span>
+                <span onclick="ustawslajd(3)" style="cursor:pointer;">[ 3 ]</span>
+                <span onclick="ustawslajd(4)" style="cursor:pointer;">[ 4 ]</span>
+                <div id="slider1">
+                    <div id="slider"></div>
+                </div><br /><br />
+                Strona ukończona 11/10/2020. Wykorzystałem na niej polecania JavaScript. I dopiero teraz rozumiem co to tak
+                naprawdę oznacza programowanie HTML i CSS to prościutkie programy przy JS, ale JS swoje skomplikowanie
+                wynagradza, większą ilością możliwości do kreatywnego wykorzystania.<br /><br />
+            </article>
+    </div>
+        <nav id="blogmenu" ;>
+            <h4>News</h4>
+            <hr style="color: green;" width="90%" /><br />
+            <div><a href="blog.html" class="linkb"><b>Blog</b></a></div><br />
+            <div><a href="wisielec.html" class="linkb"><b>Wisielec</b></a></div><br />
+            <div><a href="JavaScript.html" class="linkb"><b>JavaScript</b></a></div><br />
+            <div><a href="dziennik.html" class="linkb"><b>Dziennik</b></a></div><br />
+            <div><a href="zegarek.html" class="linkb"
+                        onclick="alert('Uwaga strona na którą chcesz wejść obraża jej użytkownika! Jeśli masz dystans do siebie przejdź dalej');"><b>Zegarek</b></a>
+            </div><br />
+            <div><a href="Pomysly.html" class="linkb"><b>Pomysły</b></a></div><br />
+            <div><a href="html.html" class="linkb"><b>Html</b></a></div><br />
+            <div><a href="Git.html" class="linkb"><b>Git</b></a></div><br />
+            </nav>
+        <div class="nordicbg"></div>
+    <footer id="footer">
+        Wersja: Beta/1.05.20<br />
+        Strona napisana na licencji GNU/GPL cały kod dostępny na github pod linkiem <a
+            href="https://github.com/Arkturhoiii2/Mitgard-2.1" target="_blank"
+            class="linkc">https://github.com/Arkturhoiii2/Mitgard-2.1</a><br />
+        Kod strony jest open source, możesz pobierać edytować lub modyfikować kod tej strony.
+    </footer>
+</body>
+
+</html>

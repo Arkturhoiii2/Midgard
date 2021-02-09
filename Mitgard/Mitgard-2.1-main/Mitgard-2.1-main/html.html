@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Midgard</title>
+    <meta name="description"
+        content="Witaj w Midgardzie, poprowadź swoje królestwo, odkrywaj nowe krainy, prowadź wojny i rozwijaj technologie." />
+    <meta name="keywords" content="game, pomodoro, trial, simply, castome" />
+    <meta http-equiv="x-UA-Compatible" content="IE=edg,chrome=1" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="icon" type="image/png" href="img/logo.jpg" alt="Midgard" />
+    <script type="text/javascript" src="draganddrop.js"></script>
+</head>
+
+<body class="background">
+    <header id="topbar">
+        <a href="blog.html" title="meni">
+            <img src="img/midgar.jpg" width="1050" high="224" />
+        </a>
+    </header>
+
+    <div id="blog">
+        HTML
+    </div>
+    <div id="blogtitle" ;>
+        Nowe funkcje HTML5, których się nauczyłem, ale nie miały zastosowania na stronie.
+    </div>
+    <article id="blogtext3" ;>
+
+        <section>
+            Poniżej mamy kilka funkcji nieużytych do tej pory na stronie, edytujących <strong>wygląd tekstu.</strong>
+            <hr width="70%" ; />
+            <div class="przerwa"></div>
+            <del>Delite Text</del><br /><br />
+            <strong>Strong Text</strong><br /><br />
+            <p id="right"><b>align right without CSS.</b></p>
+            <div class="przerwa"></div>
+        </section>
+
+        <section>
+            Następnie mamy do czynienia z pięknym użyciem funkcji <strong>border</strong> na zdjęciu.
+            <hr width="70%" ; />
+            <div class="przerwa"></div>
+            <figure id="figure1">
+                <img src="img/border.jpg" hight="450px" width="450px" border="3px" alt="Border między USA a Meksykiem">
+                <figcaption>Border między USA a Meksykiem</figcaption>
+            </figure>
+            <div class="przerwa"></div>
+        </section>
+
+        <section>
+            Kolejnym punktem jest <strong>lista z kropkami.</strong>
+            <hr width="70%" ; />
+            <div class="przerwa"></div>
+            <div id="op">
+                <ul>
+                    <li style="color: red">red</li>
+                    <li style="color: blue">blue</li>
+                    <li style="color: green">green</li>
+                    <li>black</li>
+                    <li style="color: whitesmoke">white</li>
+                </ul>
+            </div>
+            <div class="przerwa"></div>
+        </section>
+
+        <section>
+            A pod spodem widzimy trochę bardziej rozbudowaną <strong>tabele</strong> w html.
+            <hr width="70%" ; />
+            <div class="przerwa"></div>
+            <div id=table>
+                <table>
+                    <tr>
+                        <th>Day</th>
+                        <th>Poniedziałek</th>
+                        <th>Wtorek</th>
+                        <th>Środa</th>
+                        <th>Czwartek</th>
+                        <th>Piątek</th>
+                        <th>Sobota</th>
+                        <th>Niedziela</th>
+                    </tr>
+                    <tr>
+                        <th>7:20-10:40</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                    </tr>
+                    <tr>
+                        <th>10:40-14:00</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                    </tr>
+                    <tr>
+                        <th>14:00-17:20</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                    </tr>
+                    <tr>
+                        <th>17:20-20:40</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                    </tr>
+                    <tr>
+                        <th>20:40-00:00</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                        <th>Nauka webcode</th>
+                    </tr>
+                </table>
+            </div>
+            <div class="przerwa"></div>
+        </section>
+
+        <section>
+            Teraz mamy do czynienia z ciekawą funkcją <strong>iframe</strong>, która wygląda dość zaawansowanie
+            na stronie, jej zadaniem jest wklejenie elementu na naszą stronę z innej strony.
+            <hr width="70%" ; />
+            <div class="przerwa"></div>
+            <iframe id="inlineFrameExample" title="Inline Frame Example" width="300" height="200"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+            </iframe>
+        </section>
+
+        <section>
+            Poniżej prezentuję, jak wygląda zaimplementowany <strong>plik wideo</strong> w html.
+            <hr width="70%" />
+            <div class="przerwa"></div>
+            <video controls>
+                <source src="mp4/videoplayback.mp4">
+            </video>
+            <div class="przerwa"></div>
+            Oraz <strong>materiał mp3</strong> podpięty pod plik html.
+            <hr width="70%" ; />
+            <div class="przerwa"></div>
+            <audio src="mp3/The Final Ever Scene  - The Office US.mp3" controls>
+                Element Audio nie jest wspierany w twojej przeglądarce.
+            </audio>
+            <div class="przerwa"></div>
+        </section>
+
+        <section>
+            Kolejnym elementem, którego umiem już stworzyć w html, a nie ma jak na razie nigdzie na stronie
+            zastosowania.
+            Jest <strong>pasek progresu</strong> zaprezentowany poniżej.
+            <hr width="70%" ; />
+            <div class="przerwa"></div>
+            <i><b>Moje umiejętności programistyczne</b></i><br />
+            <hr width="40%" color="black" />
+            <div id="html">
+                <b>HTML : </b><br />
+                <b>CSS : </b><br />
+                <b>JavaScript : </b><br />
+                <b>JQuery : </b><br />
+            </div>
+            <div id="html1">
+                <progress min="0" max="100" value="70"></progress><br />
+                <progress min="0" max="100" value="30"></progress><br />
+                <progress min="0" max="100" value="7"></progress><br />
+                <progress min="0" max="100" value="2"></progress><br />
+            </div>
+            <div class="przerwa"></div>
+        </section>
+
+        <section>
+            <div id="webstorage">
+                <hr width="90%" />
+                W tym miejscu powinienem umieścić działającą funkcję <strong>web storage.</strong> Jednak ukazanie tej
+                funkcji
+                graficznie jest trudne, po prostu ta funkcja raczej nie do tego służy. Poza tym wymaga trochę większej
+                wiedzy na temat składni JavaScript od moich umiejętność w tym języku, jakie posiadam, jak na razie. Oraz
+                znajomości JSON-a, z którego jeszcze nie korzystałem, na mojej programistycznej drodze. Więc wymyśliłem
+                inną metodę zaprezentowania, na czym polega stosowanie <strong>web storag</strong> i jak ja tę funkcję
+                rozumiem,
+                czyli po prostu wkleję materiał wideo pod spodem, który świetnie wytłumaczył, do czego ta funkcja jest
+                przeznaczona.
+                <hr width="70%" ; />
+                <div class="przerwa"></div>
+                <video controls width="576px" height="360px">
+                    <source src="mp4/HTML5 JavaScript Web Storage using localStorage and sessionStorage.mp4">
+                </video>
+                <div class="przerwa"></div>
+            </div>
+        </section>
+        <section>
+            <div id="webstorage">
+                <hr width="90%" />
+                Podobnie sytuacja wygląda z funkcją w html5 <strong>geolocation API</strong>, więc powtórzę po prostu
+                rozwiązanie,
+                jakie użyłem w przykładzie powyżej. Jednak dodam, że tutaj sytuacja różni się od web storage tym, że
+                żeby zaimplementować do swojej strony <strong>geolocation API</strong> trzeba stworzyć na naszej stronie
+                łącze
+                HTTPS, czyli szyfrowane łącze internetowe trochę jak te używane na stronach bankowych. Dodatkowo dodam,
+                że w Unii Europejskiej za sprawą ACTA 2 i tym podobnych rozporządzeń. Nie mógłbym na swojej stronie
+                zbierać informacje o geolokacji użytkowników strony, ponieważ zgodnie z prawem na stronie mogę zbierać
+                jedynie informacje niezbędne do funkcjonowania serwisu. A jak się można domyślać gra strategiczna,
+                raczej z założenia takiej informacji o użytkowniku wcale nie potrzebuje, do poprawnego funkcjonowania.
+                <hr width="70%" ; />
+                <div class="przerwa"></div>
+                <video controls width="640px" height="360px">
+                    <source src="mp4/Using the Geolocation API - JavaScript Tutorial.mp4">
+                </video>
+                <div class="przerwa"></div>
+                <hr width="90%" />
+                <p>Teraz pokrótce padnie kilka słów o funkcji <strong>Drag&Drop API</strong>. Funkcja, o której mówię
+                    tak jak powyższe wymaga znajomości dodatkowych języków programowania poza podstawowym web
+                    deloperskim uposażeniem, czyli HTML-em i CSS-em. Poniżej macie materiał wideo zwięźle tłumaczący
+                    zasady
+                    działania tej funkcji na stronie.</p>
+                <hr width="70%" />
+                <div class="przerwa"></div>
+                <video controls width="640px" height="360px">
+                    <source src="mp4/draganddrop.mp4">
+                </video>
+                <div class="przerwa"></div>
+                Dobra, spróbujmy stworzyć element, wykorzystujący funkcję <strong>drag&drop</strong> w moim pliku html.
+                <hr width="70%" ;>
+                <div class="przerwa"></div>
+                <div class="empty">
+                    <div class="fill" draggable="true"></div>
+                </div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+            </div>
+            <div class="przerwa"></div>
+            <hr width="90%" />
+            <p>Jak widać, nie za bardzo wyszła mi ta funkcja, w oryginale obrazek powinien pozwalać się przeciągać i
+                upuszczać pomiędzy oknami. Jednak moje umiejętności w JS nie pozwalają mi rozwiązać tego problemu. Wrócę
+                do tej sekcji bloga, gdy poprawię swoje umiejętności w JavieScripcie. I rozwiążę problem z 7 linijką
+                kodu w js-ie. Co gorsza, chciałem rozwiązać problem zbyt powolnego renderowania strony, za pomocą
+                dodania tej funkcji, ale niestety ta niedziałająca funkcja tylko spowolniła ten proces o drugie tyle,
+                teraz strona renderuje się w czasie 1s do 1,5s, tragedia.</p>
+            <hr width="70%" />
+            <div class="przerwa"></div>
+        </section>
+
+        <section>
+            Teraz zaprezentuję wam, parę prostych przykładów zastosowania funkcji <strong>SVG</strong> na stronie.
+            <hr width="70%" ;><br />
+            <div class="przerwa"></div>
+            <b>Tak prezentuje się zdjęcie w formacie SVG.</b>
+            <div class="przerwa1"></div>
+            <img src="img/kiwi.svg" alt="" height="300px" width="300px" />
+            <div class="przerwa"></div>
+            <b>Tak wygląda okrąg stworzony tylko i wyłącznie za pomocą kodu html.</b>
+            <svg class="svgokna" width="300" height="300">
+                <circle cx="55%" cy="50%" r="50" fill="green" />
+            </svg>
+            <div class="svgokna2">
+                <i><strong>Elementy funkcji: circle</strong><br /><br />
+                    <i style="color: rgb(73, 72, 72);">cx</i> - oś x dla środka okręgu<br />
+                    <i style="color: rgb(73, 72, 72);">cy</i> - oś y dla środka okręgu<br />
+                    <i style="color: rgb(73, 72, 72);">r</i> - promień koła<br /><br /></i>
+                <i style="color: #8A8A8A;">info - jeśli chcesz wyśrodkować obiekt svg w divie, nadaj mu 50% osi x i y,
+                    nie musisz wpisywać wartości w px.</i>
+            </div>
+            <div class="przerwa2"></div>
+            <div class="titlesvg">
+                <strong>A tak wygląda prostokąt stworzony za pomocą svg.</strong>
+            </div>
+            <svg class="svgokna" width="300" height="300">
+                <rect width="280" height="150" x="30%" y="25%" fill="red" />
+            </svg>
+            <div class="svgokna2">
+                <i><strong>Elementy funkcji: rect</strong><br /><br />
+                    <i style="color: rgb(73, 72, 72);">x</i> atrybut definiuje lewe położenie prostokąta (np x = "50"
+                    umieszcza prostokąt 50 px od lewego marginesu)<br /><br />
+                    <i style="color: rgb(73, 72, 72);">y</i> atrybut definiuje górną pozycję prostokąta (np y = "20"
+                    umieszcza prostokąt 20 px od górnego marginesu)<br /></i>
+            </div>
+            <div class="przerwa1"></div>
+            <div class="titlesvg">
+                <strong>Linia stworzony za pomocą svg.</strong>
+            </div>
+            <svg class="svgokna" width="300" height="300">
+                <line x1="130" y1="80" x2="405" y2="220" style="stroke:black; stroke-linecap: round; stroke-width:20" />
+            </svg>
+            <div class="svgokna2">
+                <strong>Elementy funkcji: line</strong><br /><br />
+                <i style="color: rgb(73, 72, 72);">x1</i> atrybut definiuje początek linii na osi x<br />
+                <i style="color: rgb(73, 72, 72);">y1</i> cecha określa początek linii na osi y<br />
+                <i style="color: rgb(73, 72, 72);">x2</i> atrybut definiuje koniec linii na osi x<br />
+                <i style="color: rgb(73, 72, 72);">y2</i> atrybut definiuje koniec linii na osi y<br />
+                <i style="color: rgb(73, 72, 72);">style="strocke-linecap:round"</i> - zaobla krawędzie linii<br />
+                <i style="color: rgb(73, 72, 72);">style="stroke-width: 20"</i> - nadaje grubość linii 20px<br />
+            </div>
+            <div class="przerwa"></div>
+            <div class="titlesvg">
+                <strong>Łamana linia stworzony za pomocą svg.</strong>
+            </div>
+            <svg class="svgokna" width="300" height="300">
+                <polyline style="stroke-linejoin: miter; stroke:black; stroke-width: 12; fill:none;"
+                    points="350 100, 250 150, 200 100" />
+            </svg>
+            <div class="svgokna2">
+                <strong>Elementy funkcji: polyline</strong><br /><br />
+                <i style="color: rgb(73, 72, 72);">-stroke-linejoin: miter; </i>Wartość miter wskazuje, że ostry
+                narożnik ma być stosowany do łączenia segmentów ścieżek. Narożnik jest tworzony przez wydłużenie
+                zewnętrznych krawędzi obrysu na stycznych segmentów ścieżki, aż się przecinają.
+            </div>
+            <div class="przerwa"></div>
+            <div class="titlesvg">
+                <strong>Elipsa stworzony za pomocą svg.</strong>
+            </div>
+            <svg class="svgokna" width="300" height="300">
+                <ellipse cx="265" cy="115" rx="150" ry="70" style="fill:gray" />
+            </svg>
+            <div class="svgokna2">
+                <strong>Elementy funkcji: ellipse.</strong><br /><br />
+                funkcje Elipsy są bardzo podobne do funkcji, które są stosowane do koła jedyne dochodzi <i
+                    style="color: rgb(73, 72, 72);">rx</i> i <i style="color: rgb(73, 72, 72);">ry</i> określają one to
+                samo co r w kole, czyli promień koła, tylko że w elipsie mamy dwa promienie: krótszy i dłuższy.
+            </div>
+            <div class="przerwa"></div>
+            <div class="titlesvg">
+                <strong>Wielokąt stworzony za pomocą svg.</strong>
+            </div>
+            <svg class="svgokna" width="300" height="300">
+                <polygon points="100 250,200 450,300 150" style="fill: indigo; stroke: black;" />
+            </svg>
+            <div class="svgokna2">
+                <i><strong>Elementy funkcji: polygon</strong></i><br /><br />
+                Polygon jest bardzo prosty w swojej konstrukcji, ponieważ cała jego konstrukcja polega na elemencie <i
+                    style="color: rgb(73, 72, 72);">points=""</i> gdzie w między znaczniki cudzysłów wrzucamy <i
+                    style="color: rgb(73, 72, 72);">x</i> i <i style="color: rgb(73, 72, 72);">y</i> wyznaczające
+                pozycję na osi x i osi y, po czym po przecinku wrzucamy kolejne punkty, które łączą się linią po kolei,
+                z sobą w ostatnim punkcie nie musisz wpisywać pozycji pierwszego punktu, wielokąt automatycznie łączy
+                ostatni punkt ciągu z pierwszym elementem ciągu.<br /> Dodatkowo, jeśli chcemy pokolorować taki
+                wielokąt, pasuje dodać funkcję <i style="color: rgb(73, 72, 72);">style="fill: ;"</i> i pomiędzy
+                dwukropek a znacznik wpisujemy kolor wypełnienia wielokąta.
+            </div>
+            <div class="przerwa"></div>
+            <div class="titlesvg"><b>I na sam koniec postaram się samodzielnie, za pomocą nauczonych<br />funkcji
+                    stworzyć, jakąś prostą grafikę. Tak, tak pewnie już ją kiedyś widzieliście hehe.</b>
+            </div>
+            <div class="przerwa1"></div>
+            <svg class="svgokna" width="300" height="300">
+                <polyline
+                    style="stroke-linejoin: miter; stroke:black; stroke-linecap: round; stroke-width: 6; fill:none;"
+                    points="350 50,250 150, 200 150, 250 150,250 200" />
+                <polyline style="stroke-linejoin: miter; stroke: black; stroke-width: 6; stroke-linecap: round;"
+                    points="300 60,340 100" />
+                <polyline x1="50" y1="50" x2="100" y2="100" style="stroke: black;" />
+                <polyline style="stroke-linejoin: miter; stroke: black; stroke-width: 3; fill:none;"
+                    points="233 167,250 150,276 155,250 150,240 125" />
+                <polygon points="240 104,287 55,312 80,251 142" style="fill: black; stroke: black;" />
+                <polygon points="260 148,300 156,345 112,320 90" style="fill: black; stroke: black;" />
+                <polygon points="330 80,352 103,385 70,375 35" style="fill: black; stroke: black;" />
+                <polygon points="256 155,297 162,256 270,256 155" style="fill: black; stroke: black;" />
+                <polygon points="219 186,245 160,245 270,219 186" style="fill: black; stroke: black;" />
+                <polygon points="134 157,239 156,213 180,134 157" style="fill: black; stroke: black;" />
+                <polygon points="134 142,229 108,245 145,134 142" style="fill: black; stroke: black;" />
+                <polygon points="295 48,320 22,364 27,321 72" style="fill: black; stroke: black;" />
+            </svg>
+            <div class="svgokna2">
+                <b>Symbol młodzieżowej organizacji: WNW</b><br /><br />
+                Nigdy nie należałem do najwybitniejszych jednostek stąpających twardo po ziemi, szczególnie w młodości,
+                podczas której interesowałem się teoriami spiskowymi, i we wszystkich swoich podręcznikach i zeszytach
+                rysowałem symbol swojej jedno osobowej organizacji :'( <i style="color: #8A8A8A;">"so alone" </i>WNW,
+                czyli Wiedza, Nauka, Wolność.
+                polu obok.
+            </div>
+            <div class="przerwa"></div>
+            <div style="height: 40px;"></div>
+            <div style="height: 12px; background-color: black;"></div>
+            <div class="okno">
+                <p>Teraz mały dodatek do treści powyżej, czyli jakaś moja standardowa linijka z przemyśleniami, na temat
+                    kodowania. Może się wydawać, że powyższy znaczek ukazujący rycerza, lub coś w stylu rycerzyka, jest
+                    prosty do okodowania w SVG. Nic bardziej mylnego, dla potwierdzenia podlinkuję zrzut ekranu
+                    ukazujący tylko linijki kodu opisujące wygląd tego obrazka. Warto zwrócić uwagę na linijki z
+                    liczbami, każda liczba opisuje punkt w przestrzeni div-a, który to punkt stanowi jeden róg
+                    wielokąta, z których składa się powyższy obrazek. I każdy z tych punktów wyznaczałem metodą prób i
+                    błędów, przez co skonstruowanie całego obrazka w sumie zajęło mi około 2-3h programowania, niestety
+                    tak to już jest w programowaniu, że jeden element strony w kilka minut tworzysz, i wychodzi coś
+                    pięknego, a i innym razem przez 3 godziny pracujesz nad prostym obrazkiem który koniec, końców i tak
+                    zostaje bardzo niedopracowany, ze swoimi nierównymi krawędziami. I tak doskonale zdaję sobie sprawę,
+                    że są edytory svg które same wypluwają linijki kodu do implementacji w kodzie źródłowym strony z
+                    obrazkiem svg, ale ja akurat nie chciałem w ten sposób się uczyć, przyklejając automatycznie
+                    wygenerowany kod na stronę.</p>
+            </div>
+            <div style="height: 80px;">
+            </div>
+            <img src="img/kod.png" />
+            <div style="height: 80px;"></div>
+            <div style="height: 12px; background-color: black;"></div>
+            <div class="okno">
+                Pewnie myśleliście, że to już koniec przygody z funkcją svg w html, że już nic więcej się w niej nie da
+                skonstruować. Niestety, muszę was rozczarować, istnieją jeszcze elementy ruchome, ponadto tak naprawdę
+                modele, które do tej pory skonstruowałem to tylko wierzchołek góry lodowej nazywanej svg, ta funkcja ma
+                dużo bardziej złożone elementy modyfikujące w sposób znaczny elementy graficzne w html. Na szczęście nie
+                zamierzam przerabiać w tym wpisie całej składni svg, ponieważ uważam, że dużo lepiej z modelami
+                graficznymi radzi sobie css, który ma bogaty język programowania animacji, jednak to, co odróżnia
+                animacje css-a od htmlowskich to obsługa grafiki rastrowej przez html, co jak zawsze jest na plus.
+            </div>
+            <div class="przerwa"></div>
+        </section>
+
+        <section>
+            <div style="height: 12px; background-color: black;"></div>
+            <div class="okno">
+                Parę słów o ruchomych elementach svg. Nie będę prezentował wszystkich możliwości, jakie można uzyskać za
+                pomocą ruchomych svg. Tak jak już wcześniej wspomniałem w css również istnieje zaawansowany kod
+                pozwalający tworzyć ruchome svg, więc rozbijanie na części pierwsze funkcji w html nie ma sensu, ale
+                gdybym jednak chciał wrócić do tego temu później, lub ty drogi czytelniku chciałbyś się dowiedzieć
+                gdzie się kończą możliwość html, jeśli chodzi o ruchome obiekty to
+                <a href="https://css-tricks.com/guide-svg-animations-smil" target="_blank"
+                    class="linkb"><b>tutaj</b></a> umieszczam
+                fantastyczny link do bloga na ten temat. Dodatkowo strona, na której się znajdujemy, już trochę opornie
+                się ładuje, i ewidentnie będzie trzeba później popracować nad jej responsywnością lub rozbiciem na
+                mniejsze podstrony.
+            </div>
+            <div class="przerwa"></div>
+            <div class="titlesvg">
+                <strong>Ruchome elementy funkcji svg.</strong>
+            </div>
+            <hr style="height: 2px; background: black; width: 50%; border: 0px;" />
+            <i>Kliknij lewym przyciskiem myszy na kwadrat, by uruchomić animację. </i>
+            <div class="przerwa1"></div>
+            <svg class="svgokna" width="300" height="300">
+                <rect width="150" height="150" fill="orange" y="35px">
+                    <animate attributeName="x" from="0" to="300" dur="3s" fill="freeze" repeatCount="1" begin="click" />
+                </rect>
+            </svg>
+            <div class="svgokna2">
+                <b>Ruchomy kwadrat w svg.</b><br /><br />
+                attributeName x i y określa po której osi docelowy element ma się przemieszczać.<br /> <i
+                    style="color: rgb(73, 72, 72);">from</i> ustawia
+                punkt rozpoczęcia ruchu obiektu, najlepiej ustawić na 0.<br />
+            </div>
+            <div class="przerwa"></div>
+            <div id="okno3">
+                Kilka podstawowych komend szybko opisujących ruchome obiekty svg.
+            </div>
+            <hr width="70%" />
+            <div id="okno4"></div>
+            <div id="okno2"><b><br />
+                    M = moveto<br />
+                    L = lineto<br />
+                    H = horizontal lineto<br />
+                    V = vertical lineto<br />
+                    C = curveto<br /></b>
+            </div>
+            <div id="okno1"><br /><b>
+                    S = smooth curveto<br />
+                    Q = quadratic Bézier curve<br />
+                    T = smooth quadratic Bézier curveto<br />
+                    A = elliptical Arc<br />
+                    Z = closepath<br /></b>
+            </div>
+            <div class="przerwa"></div>
+            <div>Parę słów o funkcji canvas w html5.</div>
+            <hr width="70%" />
+            Kanwas wymaga podstawowej znajomość Javy Scriptu i mimo, że wydaje mi się, że zrozumiałbym podstawowy zakres
+            tej funkcji, przy pomocy moich umiejętności JS, jednak na obecnym etapie odpuszczę sobie ten punkt html, i
+            jedynie zostawię tak jak poprzednio link do rozbudowanego bloga na ten temat.<a
+                href="https://kursjs.pl/kurs/canvas/canvas.php" target="_blank" class="linkb"><b>O tutaj.</b></a>
+            <div class="przerwa"></div>
+            <div>Teraz pokażę jak działa okno wyboru opcji w html, przy użyciu <i
+                    style="color: rgb(73, 72, 72);">'detalist'</i> i <i style="color: rgb(73, 72, 72);">'option'</i>
+            </div>
+            <hr width="70%" />
+            <div class="przerwa"></div>
+            <label for="myBrowser">Jak bardzo podoba ci się ta strona:</label>
+            <input list="browsers" id="myBrowser" name="myBrowser" />
+            <datalist id="browsers">
+                <option value="Okropna">
+                <option value="Tandetna">
+                <option value="Na chuj to stworzyłeś">
+                <option value="Sprzedam opla">
+                <option value="Gdzie jest wyjście">
+                <option value="Przestań mnie męczyć tym html-em">
+            </datalist>
+            <div class="przerwa"></div>
+            <div>No i bliźniacza funkcja detail+s trochę jak piskuta tylko, że z "s"</div>
+            <div class="przerwa"></div>
+            <details>
+                <summary>Rozwiń</summary>
+                To okno ukrywa treść w nim zawartą, i dopiero po najechaniu i kliknięciu Rozwiń, umożliwia przeczytanie
+                pełnej zawartości tego okna
+            </details>
+            <div class="przerwa"></div>
+        </section>
+    </article>
+    <nav id="blogmenu" ;>
+        <h4>News</h4>
+        <hr style="color: green;" width="90%" /><br />
+        <div><a href="blog.html" class="linkb"><b>Blog</b></a></div><br />
+        <div><a href="wisielec.html" class="linkb"><b>Wisielec</b></a></div><br />
+        <div><a href="JavaScript.html" class="linkb"><b>JavaScript</b></a></div><br />
+        <div><a href="dziennik.html" class="linkb"><b>Dziennik</b></a></div><br />
+        <div><a href="liczby.html" class="linkb"
+                onclick="alert('Uwaga strona na którą chcesz wejść obraża jej użytkownika! Jeśli masz dystans do siebie przejdź dalej');"><b>liczby</b></a>
+        </div><br />
+        <div><a href="Pomysly.html" class="linkb"><b>Pomysły</b></a></div><br />
+        <div><a href="zegarek.html" class="linkb"><b>Zegarek</b></a></div><br />
+        <div><a href="Git.html" class="linkb"><b>Git</b></a></div><br />
+    </nav>
+    <footer id="footer">
+        Wersja: Beta/1.05.20<br />
+        Strona napisana na licencji GNU/GPL cały kod dostępny na github pod linkiem <a
+            href="https://github.com/Arkturhoiii2/Mitgard-2.1" target="_blank"
+            class="linkc">https://github.com/Arkturhoiii2/Mitgard-2.1</a><br />
+        Kod strony jest open source, możesz pobierać edytować lub modyfikować kod tej strony.
+    </footer>
+</body>
+
+</html>

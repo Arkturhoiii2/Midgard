@@ -1,0 +1,927 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+        <head>
+            <link rel="stylesheet" href="JavaScript.css" type="text/css" />
+            <meta charset="utf-8"/>
+            <title>Midgard</title>
+            <meta name="description" content="Witaj w Midgardzie, poprowadź swoje królestwo, odkrywaj nowe krainy, prowadź wojny i rozwijaj technologie." />
+            <meta name="keywords" content="game, pomodoro, trial, simply, castome" />
+            <meta http-equiv="x-UA-Compatible" content="IE=edg,chrome=1" />
+            <script>
+                function sensowna()
+                {
+                    document.getElementById("sens").innerHTML = "42";
+                }
+            </script>
+            <meta name="viewport" content="width=device-width">
+            <meta http-equiv="x-ua-compatible" content="ie=edge">
+            <link rel="icon" type="image/png" href="img/logo.jpg" alt="Midgard" />
+        </head>
+        
+        <body>
+                <header id="topbar" style="width: 100%; float: none;">
+                    <a href="index.html" title="Do menu głównego">
+                    <img src="img/midgar.jpg" width="1050" high="224" alt="Mitgard" /></a>
+                </header>
+            <div>
+            <div>
+                <div id="blog" ;>Java Script</div>
+                <div id="blogtitle" ;>Czyli, czy da się programować na telefonie?</div>
+                <div id="blogtex_b5">
+                    <p><b>Parę słów wstępu, koniecznych by wytłumaczyć czym jest ta strona. W 2020r. poraz pierwszy liznołem na poważnie programowanie, w efekcie czego powstała ta strona. <br/><br/>Po miesiącu prac i przerobieniu całego html-a i części css, odpuściłem sobie na jakiś czas programowanie, by po kolejnymmiesiącu tu wrucić, tym razem miałem spalony laptop i dlatego zacząłem programować na telefonie, brzmi kuriozalnie, ale taka jest właśnie geneza powstania tej strony, z racji, że miałem poważne problemy z czasem ładowania tej strony na tel należy ją czytać od dołu do gury nowe funkcje umieszczałem na samej górze by nie musieć przewijać przy każdej poprawce na sam dół. <br /><br />Wszystkich funkcji zawartych na tej stronie uczyłem się z stronny w3school, która raczej ma tylko nakierowywać na sam sens funkcji a nie służyć przykładami, jakichś ciekawych projektów programistycznych, dlatego nauki z jaką mamy tu doczynienia ostatecznie nie polecam. <br /><br/>Ale z racji, że blog na tej stronie stał się śmietnikiem do którego wrzucam wszystkie swoje testowe strony, to oczywiście tej również nie mogło tutaj zabraknąć.</b></p>
+                </div>
+                <nav id="blogmenu" ;>
+                    <h4>News</h4>
+                    <hr style="color: green;" width="90%" /><br />
+                    <div><a href="blog.html" class="linkb"><b>Blog</b></a></div><br />
+                    <div><a href="wczytajgre.html" class="linkb"><b>Wisielec</b></a></div><br />
+                    <div><a href="zegarek.html" class="linkb"><b>Zegarek</b></a></div><br />
+                    <div><a href="dziennik.html" class="linkb"><b>Dziennik</b></a></div><br />
+                    <div><a href="liczby.html" class="linkb"
+                            onclick="alert('Uwaga strona na którą chcesz wejść obraża jej użytkownika! Jeśli masz dystans do siebie przejdź dalej');"><b>liczby</b></a>
+                    </div><br />
+                    <div><a href="Pomysly.html" class="linkb"><b>Pomysły</b></a></div><br />
+                    <div><a href="html.html" class="linkb"><b>Html</b></a></div><br />
+                    <div><a href="Git.html" class="linkb"><b>Git</b></a></div><br />
+                </nav>
+                <div id="blogtex_b5">
+                    <br /><br /><hr><br /><br />
+                    <p>Pierwszym projektem będzie przelicznik walut, w poniższym polu wpisz kwotę jaką chciałbyś przeliczyć na z eur na złotówki po kursie z dnia 26.01 poczym kliknij przelicz, a poniżej pojawi się wynik tego równania.</p>
+                    <h3>Kurs 4,54zł/eur</h3>
+                    <input id="a152" type="number">
+                    <button onclick="a153()">Przelicz</button>
+                
+
+                    <br/>
+                    <p id="a154"></p>
+                    <script>
+                        function a153(){
+                            document.getElementById('a152').value;
+                            var a155 = a156 * 4.54;
+                            document.getElementById('a154').innerHTML = a155;
+                        }
+                    </script>
+                    <p>No dobra ja jakiś głupi jestem, nawet tak prostej funkcji nie jestem wstanie zaprogramować, poklikałem ile potrałiłem coś tam nawet wyskakiwało najpierw błędny wynik a potem Nan ale potem już nawet to przestało działać dziwne.</p>
+                    <br/>
+                    <hr>
+                    <p>Chyba jakiś tydzień przerwy od JS sobie zrobiłem, ale spokojnie już wruciłem, teraz będę się starał poświęcać czas 1:1 etutor i programowanie, zobaczymi jak mi pójdzie, no i raczej teraz będę programował jakieś praktyczne elementy a nie tylko się uczył elementów, dzięki czemu nauka nie będzie taka nudna i monotonna.</p>
+                    <hr>
+                    <p>Funkcja <b>toExponential()</b>, w JS słóży do zaokrąglania liczb niewymiernych, w nawias wpisujemy ilość miejsc po przecinku które nas interesują.</p>
+                    <p><b id="a151"></b></p>
+                    <script>
+                        var a150 = 7.467;
+                        document.getElementById('a151').innerHTML = "Pusty nawias " + a150.toExponential() + "<br/>" + "Dwa miejsca po przecinku " + a150.toExponential(2) + "<br/>" + "Cztery miejsca po przecinku " + a150.toExponential(4) + "<br/>" + "Sześć miejsc po przecinku " + a150.toExponential(6);
+                    </script>
+                    <hr>
+
+                    <p>Prymitywne liczby takie jak (3.4 lub 2020) nie mogą mieć właściwości i metod, ponieważ nie są objektami </p>
+                    <p>Jednak w przypadku języka JavaScript metody i właściwości są również dostępne dla wartości pierwotnych, ponieważ JavaScript traktuje wartości pierwotne jako obiekty podczas wykonywania metod i właściwości</p>
+                    <p><b>toString()</b> zwraca liczbę jako string:</p>
+                    <br/>
+                    <b>var x = 123;</b><br/>
+                    <p><b>x.toString();// returns 123 from variable x</b></p>
+                    <p><b>(123).toString();// returns 123 from literal 123</b></p>
+                    <p><b>(100 + 23).toString();   // returns 123 from expression 100 + 23</b></p>
+                    <p><b>Wyniki:</b></p>
+                    <p><b id="a148"></b></p>
+                    <script>
+                        var a149= 123;
+                        document.getElementById('a148').innerHTML = a149.toString() + "<br/>" + (123).toString() + "<br />" + (100 + 23).toString(); 
+
+                    </script>
+                    <hr>
+                    <p><h1>Metody liczbowe JS</h1></p>
+                    <hr>
+                    <p>Liczby w JS normalnie na początku są prymitywnymi wartościami tworzonymi z liter, ale za pomocą funkcji <b>new</b> mogą stać się obiektami</p>
+                    <p><b>var a141 =123;</b></p>
+                    <p><b id="a143"></b></p>
+                    <p><b>var a142 = new Number(123);</b></p>
+                    <p><b id="a144"></b></p>
+                    <script>
+                        document.getElementById('a143').innerHTML = typeof 123;
+                        document.getElementById('a144').innerHTML = typeof new Number(123);
+                    </script>
+                    <p>Tworzenie liczb jako objektów, spowalnia wykonywanie działania, przez program. Oraz może powodować, niespodziewane rezultaty, działania programu don't do it.</p>
+                    <p>Przy użyciu funkcji == program podaje że liczba object i liczba liczba są równe sobie, (czytaj takie same.)</p>
+                    <p><b> 123 == new Number(123) ?</b></p>
+                    <p><b id="a145"></b></p>
+                    <script>
+                        var a146 = 123;
+                        var a147 = new Number(123);
+                        document.getElementById('a145').innerHTML = a146==a147;
+                    </script>
+                    <hr>
+
+                    <p><b>Liczy Szesnastkowe 0x</b></p>
+                    <p>Metoda toString() może zwracać, liczby od 2 do 36, cokolwiek miało by to znaczyć.</p>
+                    <p><b id="a140"></b></p>
+                <script>
+                    var a139 = 32;
+                    document.getElementById('a140').innerHTML = "32 = " + "<br/>" + "System dziesiętny = " + a139.toString(10) + "<br/>" + "System szesnastkowy = " + a139.toString(16) + "<br/>" + "System ósemkowy = " + a139.toString(8) + "<br/>" + "System dwujkowy = " + a139.toString(2);
+                </script>
+                <hr>
+                <p>JavaScript zapisuje wszystkie liczby w systemie 16-stkowym za pomocą funkcji 0x</p>
+                <p><b>var = 0xFF;</b> Wynikiem takiej funkcji jest ten numer:</p>
+                <p><b id="a136"></b></p>
+                <p><b id="a138"></b></p>
+                <script>
+                    var a137 = 0xFF;
+                    document.getElementById('a136').innerHTML = "0xFF = " + a137;
+                </script>
+                <p>Truchę tego nie rozumiem więc poprostu przekleję tłumaczenie angielskiej strony, do późniejszej analizy</p>
+                <p>Nigdy nie pisz liczby z zerem wiodącym (np. 07).Niektóre wersje JavaScript interpretują liczby jako ósemkowe, jeśli są zapisane z zerem wiodącym.Domyślnie JavaScript wyświetla liczby jako dziesiętne dziesiętne przy podstawie podstawy .Ale możesz użyć tej toString()metody, aby wyprowadzić liczby od podstawy 2 do podstawy 36 .Szesnastkowy to podstawa 16 . Liczba dziesiętna to podstawa 10 . Ósemkowy ma podstawę 8 . Binarny to podstawa 2 .</p>
+                <hr>
+                <p>funkcja <b>infinity</b> pojawia się jako informacja zwrotna, gdy nasza liczba, wykracza poza skale możliwie wielkich liczb w JS. W przykładzie poniżej uruchomiłem funkcję potęgującą w nieskączoność 2*2 i wynik razy 2, oto rezultat.</p>
+                <p><b id="a130"></b></p>
+                <script>
+                    var a127 = 2;
+                    var a128 = "";
+                    while (a127 != Infinity) {
+                        a127 = a127 * a127;
+                        a128 = a128 + a127 + "<br>";
+                    }
+                    document.getElementById("a130").innerHTML = a128;
+                </script>
+                <p style="display:none" id="a129">
+                <textarea cols="40" rows="10">
+                    <p><b id="a130"></b></p>
+                    <script>
+                        var a127 = 2;
+                        var a128 = "";
+                        while (a127 != Infinity) {
+                            a127 = a127 * a127;
+                            a128 = a128 + a127 + "<br>";
+                        }
+                        document.getElementById("a130").innerHTML = a128;
+                    </script>
+                </textarea></p>
+                <button  onClick="a109('a129'); return false;">kod funkcji</button>
+                <p>Przy okazji dzielenie przez zero też daje wynik Infinity. </p>
+                <p><b>var = 2 / 0;</b></p>
+                <p><b id="a131"></b></p>
+                <p><b>var = -2 / 0;</b></p>
+                <p><b id="a134"></b></p>
+                <script>
+                    var a132 = 2 / 0;
+                    var a133 = -2 /0;
+                    document.getElementById('a131').innerHTML = a132;
+                    document.getElementById('a134').innerHTML = a133;
+                </script>
+                <p>Czy kiedykolwiek zadawałeś sobie pytanie, czy nieskończoność, jest liczbą? Sprawdźmy to.</p>
+                <p><b>var = typeof Infinity;</b></p>
+                <p>Zgadza się, powyższy wynik informuje o tym, że wedłóg funkcji typeof Infinity to numer, hurra.</p>
+                <p><b id="a135"></b></p>
+                <script>
+                    document.getElementById('a135').innerHTML = typeof Infinity;
+                </script>
+                <hr>
+
+                <p>Możesz użyć globalnej funkcji <b>isNaN()</b> by sprawdzić czy dana wartość var jest NaN-em czy nim nie jest</p>
+                <p><b id="a115"></b></p>
+                <p><b id="a116"></b></p>
+                <p><b id="a122"></b></p>
+                <p><b id="a125"></b></p>
+                <p><b id="a126"></b></p>
+
+                <script>
+                    var a119 = 100;
+                    var a120 = NaN;
+                    var a121 = a119 + a120;
+                    var a123 = "5";
+                    document.getElementById('a115').innerHTML = isNaN(a119);
+                    document.getElementById('a116').innerHTML = isNaN('a121');
+                    document.getElementById('a122').innerHTML = isNaN('a120');
+                    document.getElementById('a125').innerHTML = a120 + a123;
+                    document.getElementById('a126').innerHTML = typeof a120;
+
+
+                </script>
+                <p id="a123" style="display:none">Pod pierwszy przykład podstawiłem 100 a pod drugi poprostu wstawiłem samego NaN. Jak się okazuje NaN jest odczytywany jako funkcja, i tą funkcję można przypisać wartości var. W trzecim przykładzie połączyłem obydwie powyższe funkcja, no i proszę okazuje się, że NaN można stwożyć tylko przez wpisanie NaN jako wartość, lub przez dodanie go do jakiejś rzeczywistej wartości, a w czwartym przykładzie dodałem NaN do pięciu bez użycia funkcji isNaN(). A w piątym przykładzie sprawdziłem za pomocą funkcji <b>typeof</b> Czy NaN jest loczbą, stringiem, czy Bóg wie czym, cuż okazało się, że to liczba, dość dziwna ale wciąż jednak liczba</p>
+                <button  onClick="a109('a123'); return false;">Opis wyników</button>
+                <hr>
+
+                <p>Wartość <b>NaN</b> dosłownie się tłumaczy jako "not a number" pojawia się gdy w wyniku działania otrzymuje liczbę którą podzieliliśmy przez słowo, lub tym podobnych sytuacjach.</p>
+                <hr>
+
+                <p>Ciekawa sztuczka</p>
+                <p><b>var x = "100";</b></p>
+                <p><b>var y = "10";</b></p>
+                <p><b>var z = x / y;</b></p>
+                <p>w efekcie da prawdziwy wynik, mimo, że wartości x i y są zapisane jako tekst a nie liczy. Poniżej umieściłem prawdziwy wynik takiego działania:</p>
+                <p><b id="a111"></b></p>
+                <script>
+                    var a112 = "100";
+                    var a113 = "10";
+                    var a114 = a112 / a113;
+                    document.getElementById('a111').innerHTML = a114;
+                </script>
+                <p>Tak samo zachowa się wynik działania, jeśli na ten przykład zamiast / podstawimy znak dodawania, odejmowania mnożenie. Poprostu taki zapis gwaratuje nam potraktowanie liczb o właściwościach tekstu jako liczb.</p>
+                <hr>
+
+                <p>Zaczęło mnie poważnie denerwować, że display rozwija, ale nie zwija swojej funkcji, dlatego zqmiast przerabiać kolejne elementy związane z JS, w tym przykładzie zamoerzam stworzyć okienko do rozwijania i zwijania tekstu.</p>
+                <textarea id="a108" rows="10" cols="60" style="display:none">
+                    <div id="a108" rows="1" cols="40" style="display:none"></div>
+                    <script>
+                        function a109(a110) {
+                        x =document.getElementById(a110);
+                        if(x.style.display == "none") x.style.display = "block";
+                        else x.style.display = "none"}
+                    </script>
+                    <button  onClick="a109('a108'); return false;">kod funkcji</button>
+                </textarea>
+                <script>
+                    function a109(a110) {
+                    x =document.getElementById(a110);
+                    if(x.style.display == "none") x.style.display = "block";
+                    else x.style.display = "none"}
+                </script>
+                <button  onClick="a109('a108'); return false;">kod funkcji</button>
+                <p>Teraz małe ogłoszenie parafialne, jeśli chciałbym powielić tą funkcję. to nie muszę przepisywać caałego kodu wystarczy się podpiąć pod już istniejącą funkcję. Tak ona wygląda:</p>
+                <textarea rows="2" cols="40">
+                    <button  onClick="a109('a108'); return 
+                    false;">kod funkcji</button>
+                </textarea>
+                <p>I zamiast a108 wprowadzić swoją własną nazwę funkcji.</p>
+                <hr>
+
+                <p>Jak widać, jest problem z poprawnym dodaniem, licz po przecinku, zastanówmy się, jak można rozwiązać ten problem</p>
+                <p>Zwykłe dodanie liczb po przecinku nie działa, ale pomnożenie ich i podzielenie, naprawia ten problem.</p>
+                <p><b id="a105"></b></p>
+                <script>
+                    var a106 = (0.3*10 + 0.1*10) /10;
+                    document.getElementById('a105').innerHTML = "0.2 + 0,1 =" + " " + a106;
+                </script>
+                <textarea id="a107" rows="5" cols="80" style="display:none">
+                    <p><b id="a105"></b></p>
+                    <script>
+                        var a106 = (0.3*10 + 0.1*10) /10;
+                        document.getElementById('a105').innerHTML = "0.2 + 0,1 =" + " " + a106;
+                    </script>
+                </textarea>
+                <button type="button" onclick="getElementById('a107').style.display = 'block'">Pokaż kod</button>
+                <hr>
+                <p>wynikiem działania var x = 0.2 - 0.1; będzie błędny poniżej wynik:</p>
+                <p><b id="a103"></b></p>
+                <script>
+                    var a104 = 0.2 + 0.1;
+                    document.getElementById('a103').innerHTML = a104;
+                </script>
+                <hr>
+
+                <p>JS zapisuje liczby w systemie 64-bitowym, w przeciwieństwie do innych programów z tego powodu dokładność lizb jest do 15 numeru liczby przykłady:</p>
+                <p>Bardzo duże liczby mogą być zapisywane z wykładnikiem potęgowym, przykłady:</p>
+                <p><b>var x = 123e5 // wynik: 12300000</b></p>
+                <p><b>var x = 123e-5 // wynik: 0,00123</b></p>
+                <p><b>var x = 999999999999999; będzie 999999999999999</b></p>
+                <p><b>var x = 9999999999999999; będzie 10000000000000000</b></p>
+                <hr>
+
+                <p>Java ma tylko dwa typy licz: </p>
+                <p>całkowite</p>
+                <p><b>var x = 3</b></p>
+                <p>nie całkowite</p>
+                <p><b>var x = 3.14</b></p>
+
+                <hr>
+
+                <h1><b>Java Script Numbers</b></h1>
+
+                <hr>
+
+                <p>Chciałbym naprawdę w tym miejscu powiedzieć, że to już jest apsolutny koniec tematu string-sów w javascrip, ale to była by naiwność, owszem właśnie skończyłem przerabiać całą stronę poświęconej tym funkcjom na w3school ale pod tym <a href="https://www.w3schools.com/jsref/jsref_obj_string.asp">linkiem</a> wciąż na mnie czeka sporo dodatkowej treści. Arturze z przyszłości, gdybyś był wciąż zainteresowany, tym tematem proszę zerknij do powyższego linka. </p>
+                <hr>
+                <p>I na sam koniec kursu dowalili mi jedyne działanie jakiego nie przeprowadziłem więc przerobię je teraz.</p>
+                <p>Okej cała magia polega na tym, że indexOf normaliedziała w ten sposób że wycina z ciągu element w przedziale, ale nie przerobiłem wycinania pojedyńczego symbolu. więc zróbmy to teraz. Mamy sohie słowo <b>Samochud</b> i by dowiedzieć się która to litera z rządu, to znaczy litera <b>"u"</b> należy użyć funkcji indexOf("h") poniżej widać efekt: </p>
+                <p><b id="a102"></b></p>
+                <script>
+                    var a100 = "Samochud";
+                    var a101 = a100.indexOf("u");
+                    document.getElementById('a102').innerHTML = a101;
+                </script>
+                <hr>
+
+                <p>Istnieją 3 metody ekstrahowania elementów ciągu:</p>
+                <ol type="1" style="text-align: left;">
+                    <li>charAt()</li>
+                    <li>charCodeAt()</li>
+                    <li>Property access[]</li>
+                </ol>
+                <p>Funkcja chartAt() zwraca określony numer znaku funkcji. Przykłd:(0) pierwsza litera (7) ósma litera (20) dwudziesta pierwsza litera</p>
+                <p><b id="a79"></b></p>
+                <p><b id="a78"></b></p>
+                <script>
+                    var a77 = "Z tego zdania wyciąłem 8 literę:";
+                    document.getElementById('a78').innerHTML = a77.charAt(7);
+                    document.getElementById('a79').innerHTML = a77;
+                </script>
+                <p>Natomiast funkcja charCodeAt() zwraca numer unicodu w standardzie utf-16, czyli bez polskich znaków.</p>
+                <p id="a80" style="display:none">Unicode to system zapisu liter w językach programistycznych, utf-16 to starsza wersja okrojona z polskich znaków. Znaki w tym systemie przyjmują wartości od 0 do 65535. </p>
+                <button type="button" onclick="getElementById('a80').style.display ='block'">Sprawdź co to unicode</button>
+                <p><b id="a81"></b></p>
+                <p><b id="a83"></b></p>
+                <script>
+                    var a82 = "Poniżej jest napisany unikod spacji wyciągniętej z tego zdania (7 znak tego zdania).";
+                    document.getElementById('a81').innerHTML = a82;
+                    document.getElementById('a83').innerHTML = a82.charCodeAt(7);
+                </script>
+                <p>I na sam koniec trzecia funkcja <b>access</b>. Ta funkcja posiada te same właściwości, co charAt, jednak może być trochę nieobliczalna w kodzie.</p>
+                
+                <p id="a84" style="display:none">Funkcja access[] może być trochę nieobliczalna w kodzie, i niekompatibilna z internetem explorem, dodatkowo traktuje wartość var (zdanie), trochę jak array, choć nie jest arrayem. A jeśli funkcja nie znajdzie symbolu, zwruci undefined a charAt zwróci puste pole i dodatkowo It is read only. str[0] = "A" gives no error (but does not work!), ale to ciężko mi przetłumaczyć na polski.</p>
+                <button type="button" onclick="getElementById('a84').style.display = 'block'">Więcej Różnic</button>
+                <p><b id="a85"></b></p>
+                <p><b id="a87"></b></p>
+                <script>
+                    var a86 = "W tym zadaniu użyłem dwóch funkcji access, po pierwsze użyłem a86[0] = 'A', co jest nieprawdą, i nie zadziałało, ale też nie powiadomiło o błędzie (undefined) a po drugie wyświetliłem pierwszy znak o numerze 0 znak tego zdania poniżej:"
+                    document.getElementById('a85').innerHTML = a86;
+                    a86[0] = "A"; <!-- Ta finkcja nie działa-->
+                    document.getElementById('a87').innerHTML = a86[0]
+                </script>
+                <p>By korzystać z ciągu jak z array trzeba przekonwertować ciąg na array. Let's do it</p>
+                <button onclick="a88()">Wyświetl</button>
+                <p><b id="a91"></b></p>
+                <script>
+                    function a88(){
+                    var a89 = "a,b,c,d,e";
+                    var a90 = a89.split(",");
+                    document.getElementById('a91').innerHTML = a90[1];
+                    }
+                </script>
+                <p id="a92" style="display:none">
+                <textarea rows="9" cols="50">
+                    <button onclick="a88()">Wyświetl</button>
+                    <p><b id="a91"></b></p>
+                    <script>
+                    function a88(){
+                    var a89 = "a,b,c,d,e";
+                    var a90 = a89.split(",");
+                    document.getElementById('a91').innerHTML = a90[1];
+                    }
+                    </script>
+                </textarea>
+                </p>
+                <button type="button" onclick="getElementById('a92').style.display = 'block'">wyświetl kod tej funkcji</button>
+                <p>Jeśli jako separator w powyższej funkcji zostanie użyty "" ten symbol wtedy wynikiem będzie podzielenie całego zdania na pojedyńcze litery, sprawdźmy jak wygląda ten śmieszny efekt.</p>
+                <p><b id="a97"></b></p>
+                <script>
+                    var a93 = "Ruchałem ci matkę";
+                    var a94 = a93.split("");
+                    var a95 = "";
+                    var a96;
+                    for (a96 = 0; a96 < a94.length; a96++ )
+                    {
+                        a95 += a94[a96] + "<br/>"
+                    }
+                    document.getElementById('a97').innerHTML = a95;
+                </script>
+                <p>Prawda, że wyszło piękniexD</p>
+                <p>Akurat w tym przykładzie kod jest dość mocno zagmatwany więc radzę dokładnie się zapoznać z wyglądem kodu, przed przystąpieniem do implementacji jego w innym miejscu.</p>
+                 <p id="a98" style="display:none">
+                <textarea rows="12" cols="51">
+                    <p><b id="a97"></b></p>
+                    <script>
+                        var a93 = "Ruchałem ci matkę";
+                        var a94 = a93.split("");
+                        var a95 = "";
+                        var a96;
+                        for (a96 = 0; a96 < a94.length; a96++ )
+                        {
+                            a95 += a94[a96] + "<br/>"
+                        }
+                        document.getElementById('a97').innerHTML = a95;
+                    </script>
+                </textarea>
+                </p>
+                <button type="button" onclick="getElementById('a98').style.display = 'block'">Wyświetl kod</button>
+                <hr>
+
+                <p>Coś ostatnio, często ten program przestaje działać wedłóg mojego planu muszę przeklejać funkcje i zmieniać id pomimo tego że sprawdzam je po 10 razy i są bezbłędne to i tak nie działają, nie ogarniam.</p>
+                <hr>
+
+                <p>Funkcje <b>padStart</b> i <b>padEnd</b>, bodajze mają za zadanie dodawanie ciągu np. licz do wartości var np. słowa. Spraqdźmy to w praktyce za pomocą poniższego przykładu: </p>
+                <p id="a74"></p>
+                <script>
+                    let a75 = "8";
+                    a75 = a75.padStart(9,2);
+                    document.getElementById('a74').innerHTML = a75;
+                </script>
+                <p id="a76" style="display:none">Poniższy fragment działa na takiej zasadzie. Zamiast var wpisujemy lat w którego wartość w tym przykładzie wpisałem 8 które wyświela się w ciągu, a w kolejnejnej linni piszemy var bez war i bez let tylko z samym id które się równa sobie samemu. stawiamy kropkę, piszemy nazwę funkcji a na końcu na wias gdzie pierwsza liczba oznacza ilość powtóżeń drógiego znaku czyli(8,2) oznacz by 8 razy napisać znak 2.</p>
+                <button type="button" onclick="getElementById('a76').style.display = 'block'">opis przykładu</button>
+                <hr>
+
+                <p id="klops"></p>
+                <script>
+                    let loop = "8";
+                    loop = loop.padEnd(9,2);
+                    document.getElementById('klops').innerHTML = loop;
+                </script>
+                <p id="dupek" style="display:none">Sporo czasu mi zajęło zaimplementowanie tej funkcji najwyraźniej już gdzieś użyłem podobnego id i dlatego funkcja nie działała, do rzeczy. Funkcja działa podobnie tylko w odwrotnej kolejności. No i na tym polega cała magia tej funkcji.</p>
+                <button type="button" onclick="getElementById('dupek').style.display = 'block'">opis przykładu 2</button>
+                <hr>
+                <p>Funkcja trim() usuwa spacje z lewej i z prawrj strony tekstu (Boże kto wymyśla takie porąbane funkcje)</p>
+                <button onclick="a70()" id="trim">with trim()</button>
+                <br/>
+                <button onclick="a72()" id=trim1>without trim()</button>
+                <p>funkcja trim() nie jest obsułgiwania przez internet explorer 8 i niższe, żeby użyć w tej przeklądarce tą funkcje należy użyć wyrażeń regularnych, ale o tym nie będę się rozpisywał, bo nie zamierzem swoich stron tworzyć pod IE.</p>
+                <script>
+                    function a70()
+                    {
+                        var a71 = "       niespodzianka       ";
+                        alert(a71.trim());
+                    }
+                    function a72()
+                    {
+                        var a73 = "         niespodzianka      ";
+                        alert(a73);
+                    }
+                </script>
+                <hr>
+
+                <p>Funkcja concat służy do łączenie wielu słów w jedno zdanie.</p>
+                <p>Przykład poniżej:</p>
+                <p><b id="a62"></b></p>
+                <script>
+                    var a63 = "To";
+                    var a64 = " jest";
+                    var a65 = " zdanie";
+                    var a66 = " złożone";
+                    var a67 = "z wielu";
+                    var a68 = " elementów var."
+                    var a69 = a63.concat(a64,a65,a66,a67,a68);
+                    document.getElementById('a62').innerHTML = a69;
+                </script>
+                <p>Funkcja concat może być zapisana w ten sposób <b>var text = "słowo" + "słowo"</b> lub w ten sposób <b>var text = text1.concat(text2,text3…)</b>. Obie metody dają taki sam efekt</p>
+                <hr>
+
+                <p>Funkcja toLowerCase zmniejsza wielkość liter.</p>
+                <p id="a59">MAŁY PENIS</p>
+                <button onclick="a60()">Zmniejsz</button>
+                <script>
+                    function a60()
+                    {
+                        var a61 = document.getElementById('a59').innerHTML;
+                        document.getElementById('a59').innerHTML = a61.toLowerCase();
+                    }
+                </script>
+                <hr>
+
+                <p>Funkcja toUpperCase zmienia małe litery na duże</p>
+                <p id="a56">duży penis</p>
+                <button onclick="a57()">Powiększ</button>
+                <script>
+                    function a57()
+                    {
+                        var a58 = document.getElementById('a56').innerHTML;
+                        document.getElementById('a56').innerHTML = a58.toUpperCase();
+                    }
+                </script>
+                <hr>
+
+                <p>Aby globalnie, zmienić wszystkie użyte takie same słowa, należy użyć funkcji/g</p>
+                <p id="a52">Jacek poszedł po przedszkola, a wprzedszkolu mówi Jola - Jacek chuj ci w dupe.</p>
+                <button onclick="a53()" >Poznaj alternatywną wersję wydażeń.</button>
+                <script>
+                    function a53()
+                    {
+                    var a54 = document.getElementById('a52').innerHTML;
+                    var a55 = a54.replace(/Jacek/g,"Gowin");
+                    document.getElementById('a52').innerHTML = a55;
+                    }
+                </script>
+
+                <hr>
+
+                <p>By zamienić słowo bez rozróżniania wielkości liter należy użyć funkcji /i.</p>
+                <p id="a48">Kasztanowy strach na wróble</p>
+                <button type="button" onclick="a49()">Brązowy</button>
+                <script>
+                    function a49()
+                    {
+                        var a50 = document.getElementById('a48').innerHTML;
+                        var a51 = a50.replace(/KASZTANOWY/i,"Brązowy");
+                        document.getElementById('a48').innerHTML = a51;
+                    }
+                </script>
+
+                <hr>
+                <h3>replace</h3>
+                <p>Zapomocą funkcji replace, można wyciąć z zdania jakieś słowo i zamiast niego wkleić jakieś inne słowo.</p>
+                <p id="a45">Poznałem twoją matkę.</p>
+                <button onclick="a44()">Kliknij, by poznać prawdę</button>
+                <script>
+                    function a44() {
+                    var a46 = document.getElementById('a45').innerHTML;
+                    var a47 = a46.replace("Poznałem","Ruchałem");
+                    document.getElementById('a45').innerHTML = a47;
+                    }
+                </script>
+                <hr>
+                
+                <p>Zarówno przy pojedynczym koordynacie (7) jak i przy ujemnym koordynacie (-7) wynik działania będzie w slice i substring taki sam.</p>
+                <p>W poniższym przykładzie z zdania <i>"ile słów trzeba powiedzieć <b>by było</b> wszystko jasne"</i> wyciąłem pogrubiony tekst i wkleiłem poniżej za pomocą koordynatów (27,34)</p>
+                <p><b id="a41"></b></p>
+                <script>
+                    var a42 = "ile słów trzeba powiedzieć by było wszystko jasne";
+                    var a43 = a42.substring(27,34);
+                    document.getElementById('a41').innerHTML = a43;
+                </script>
+                <hr>
+
+                <p><b>Substring</b> to podobna funkcja do slice, z jedną różnicą, w postaci, nie możności użycia ujemnego literału.</p>
+                <p> W poniższym przykładzie wyciągłem słowo "Ruchałem" z zdania "Ruchałem ci matkę". za pomocą przedziału w funkcji substring(0, 8).</p>
+                <p id="a40"></p>
+                <script>
+                    var a38 = "Ruchałem ci matkę.";
+                    var a39 = a38.substring(0, 8);
+                    document.getElementById('a40').innerHTML = a39;
+                </script>
+                <hr>
+
+                <p>w tym przykładzie funkcja slice. wybiera z zdania "Moja racja jest <b>mojsza niż</b> twojsza." ciąg (-18, -8) w efekcie otrzymujemy poniższy ciąg:</p>
+                <p><b id="a35"></b></p> <!-- W tym przykładzie poraz pierwszy pogrubiłem tekst wychodzący z funkcji JS -->
+                <script>
+                    var a36 = "Moja racja jest mojsza niż twojsza";
+                    var a37 = a36.slice(-18, -8);
+                    document.getElementById('a35').innerHTML = a37;
+                </script>
+                <hr>
+
+                <p>Poraz pierwszy udało mi się opublikować swoją stronę w internecie w końcu fizycznie mogą na nią wbić, generalnie całość nie powola ale działa <a href="https://javnyscripttest.neocities.org/">link</a>. Myślałem też nad publikacją mitgardu ale całość pewnie by mi się nawet nie zmieściła na tej darmowej stronie hostingowej, tak czy siak jestem zadowolony, bo poprzednią nie udało mi się upublicznić swojego projektu, poza githubem.</p>
+                <hr>
+
+                <p>Funkcja <b>slice</b> wycina element ciągu i w kleja go w inny ciąg.</p>
+                <p>W tym przykładzie z zdania <i>"twoja stara zapierdala"</i> za pomocą funkcji slice wyciąłem słowo <i>"zapierdala"</i> i wyświetliłem poniżej.</p>
+                <p id="a29"></p>
+                <script>
+                    var a27 = "twoja stara zapierdala";
+                    var a28 = a27.slice(12,22);
+                    document.getElementById('a29').innerHTML =a28;
+                </script>
+                <p>A jeśli wstawisz tylko jedną liczbę do slice() to funkcja skopiuje wszystko znajdujące się za liczbą np.6 przykład poniżej</p>
+                <p id="a30"></p>
+                <p>Lub w drugą stronę dodajemy "-" w przykładzie poniżej użyłem -6. W takim przypadku jako wynik jest wstawiane 6 ostatnich symboli ciągu.</p>
+                <p id="aha"></p>
+                <p>Przy okazji też odkryłem, że id coś tam musi być nad scryptem a nie pod bo inaczej to id nie zostanie znalezione przez scrypt.</p>
+                <script>
+                    var a30 = "twoja stara zapierdala";
+                    var a31 = a30.slice(6);
+                    document.getElementById('a30').innerHTML = a31;
+                    var a34 ="twoja stara zapierdala";
+                    var a33 = a34.slice(-6);
+                    document.getElementById('aha').innerHTML = a33;
+                </script>
+                <hr>
+
+                <p>Są trzy metody ekstraktowania elementów z ciągu</p>
+                <br/>
+                <a>slice(start, end)</a>
+                <br/>
+                <a>substring(start, end)</a>
+                <br/>
+                <a>substr(start, length)</a>
+                <br/>
+                <p>głównie polegają na opisaniu od którego do którego znaku ma wyciągnąć słowo.</p>
+                <hr>
+
+                <p>Na tej stronie <a href="https://www.w3schools.com/js/js_string_methods.asp">link</a> jest to lepiej opisanie, ja jedynie staram się streścić cały temat, funkcji wyszukujących argumenty w ciągu.</p>
+                <hr>
+
+                <p>Istnieje także funkcja search() za jej pomocą można dokładniej określiś jakiego obiektu szukamy</p>
+                <p>Metoda search () nie może przyjąć drugiego argumentu pozycji początkowej.<br/>
+                Metoda indexOf () nie może przyjmować zaawansowanych wartości wyszukiwania (wyrażeń regularnych).</p>
+                <p>W zdaniu "koktajle mleczne świecą słonecznym blaskiem". Szuka słowa "świecą" za pomocą funkcji search.</p>
+                Wynik <a id="a26"></a>
+                <script>
+                    var a24 = "koktajle mleczne świecą słonecznym blaskiem";
+                    var a25 = a24.search("świecą");
+                    document.getElementById('a26').innerHTML = a25;
+                </script>
+                <p>Ciekawostka, jeśli jesteś zainteresowany tym czy wynik się nie myli, skopiuj zdanie od pierwszej litery do pierwszej litery słowa "świecą" i przeklej do zaprogramowanego wcześniej programu liczącego ilość znaków w zdaniu, i nie zapomnij odjąć -1 funkcja zaczyna liczyć od 0 a nie od 1</p>
+                <hr>
+
+                <p>Istnieje też, bliźniacza funkcja lastIndexOf() która w przeciwieństwie do indexOf, szuka słowa od tyłu do przodu(po arabsku). W sumie aż tak dobrze to nie wygląda najwyraźniej jednak liczy od początku są dwa słowa klucze jedno na początku zdania drugie na końcu nawet jeśli każę nie liczyć większej pierwszej połowy to nadal odpowiedź pada na pierwsze słowo dopiero gdy zakres </p>
+                <p id="a23"></p>
+                <script>
+                    var a18 = "letni poranek rozpoczął się o w miasteczku poranek kto.";
+                    var a19 = a18.lastIndexOf("poranek", 50);
+                    document.getElementById('a23').innerHTML = a19;
+                </script>
+                <hr>
+
+                <p>w funkcji indexOf("something", 15) wartość 15 infermuje program od której posycji mq zacząć liczenie, ale i tak wynik działania wyniesie ilość łącznych symboli pomiędzy początkiem ciągu aż do szukanej frazy (w tym 15 symboli które miała ta funkcja pominąć.) jedyną różnicą jest to że jeżeli funkcja ma pominąć 15 znaków i w nich jest schowane szukane słowa funkcja nas poinformuje, że nie znalazła szukanego słowa/klucza.</p>
+                <p id="A22"></p>
+                <script>
+                    var a20 = "znajdź w tym zdaniu słowo kasztan";
+                    var a21 = a20.indexOf("kasztan", 15);
+                document.getElementById('A22').innerHTML = a21;
+                </script>
+                <hr>
+        
+                <p>Okej postarajmy się nieco roższeżyć przykładowe użycie  poprzedniej funkcji w tym przykładzie. Poniżej masz słowa które tworzą ciąg array. Wpisz w pustym oknie jedno z poniższych słów, by zażądać wyświetlenia jego numer w ciągu.</p>
+                <p>kuropatwy spacerują goha po polu</p>
+                <input id="a15" type="text"/>
+                <button type="button" onclick="arabia()" >Znajdź</button>
+                <p id="a17"></p>
+                <p id="a16"></p>
+                <script>
+                    function arabia()
+                    {
+                    var pot = goliat.indexOf('goha');
+                    document.getElementById('a17').innerHTML = pot;
+                    }
+                    var goha = document.getElementById('a15').value;
+                </script>
+                <p>Generalnie eksperymęt trochę się nie udał, poświęciłem na niego godzinię i niestety nie znalazłem metody na przeklenie do nawiasów w funkcji indexOf() żądanego słowa więc jedyną możliwością na obecną chwilę jest ręczne wypełnienie tego polo w kodzie źrudłowym.</p>
+                <hr>
+
+                <p>"indexOf()" to funkcja wyszukująca numer symbolu w kodzie w której się znajduje, słowo które umieściliśmy w nawiasie, funkcja liczy pierwszy symbol kodu jako 0 a nie jako 1, więc 22-gi symbol kodu zostanie zapisany jako 21 symbol kodu. Natomiast jeśli podane słowo nie zostanie odnalezione zostanie wyświetlony symbol -1. ta funkcja ma dobre zastosowanie w wyszukiwaniu nuemerów w funkcj arryay czyli funkcji: tabeli lub ciągu, tłumacząc na polski.</p>
+                <a id="a14"></a>
+                <script>
+                    var str = "znajdź w tym zdaniu słowo kasztan";
+                    var pos = str.indexOf('kasztan');
+                    document.getElementById('a14').innerHTML = pos;
+                </script>
+                <hr>
+
+                <p>Podobnie jak w poprzednimi przykładzie z datami kliknij na sprawdź by dowiedzieć się jaki mamy dzień.</p>
+                <button onclick="this.innerHTML = a13">Sprawdź</button>
+                <script>
+                    var a13 = "10 Stycznia";
+                </script>
+                <hr>
+
+                <p>Wpisz w poniższe pole słowo, a potem przycisk sprawdź, by program obliczył za ciebie ilość znaków w tym zdaniu.</p>
+                <input id="tx" type="text"/>
+                <button type="button" onclick="dlugosc()">Sprawdź</button>
+                <p id="a12"></p>
+                <script>
+                    function dlugosc()
+                    {
+                        var a11 = document.getElementById('tx').value;
+                        var sln = a11.length;
+                        document.getElementById('a12').innerHTML = sln;
+                    }
+                </script>
+                <p>Samemu mi się nie chce wierzyć, ale tak, właśnie poraz pierwszy, samodzielnie stworzyłem funkcje js która reaguje na użytkownika, a nie jedynie biernie informuje, za pomocą tekstu, co się dzieje w jej bebechach.</p>
+                <hr>
+
+                <p>Funkcja sln, sprawdza ile symboli zawiera się w wartości argumentu.</p>
+                <br/>
+                <a>zadanie : Przybieżeli do Betlejem pasterze ma </a>
+                <a id="a10"></a> Znaków.
+
+                <script>
+                    var tex = "Przybieżeli do Betlejem pasterze";
+                    var sln = tex.length;
+                    document.getElementById('a10').innerHTML = sln;
+                </script>
+                <hr>
+
+                <button onclick="displayDate()">Sprawdź date</button>
+                <p id="a9"></p>
+                <script>
+                    function displayDate()
+                    {
+                        var a10 = "10 styczeń // małe sprostowanie normalnie w tym przykładzie powinnienem użyć funkcji Data, ale z jakiegoś powodu akurat w tym programie ta funkcja nie działa";
+                        document.getElementById('a9').innerHTML= a10;
+                    }
+
+                </script>
+                <hr>
+
+                <p>poniżej mamy doczynienia z mało spektakularnym jednak nowym użyciem funkcji object, by zrozumieć jak wyświetliłem ten tekst, zerknij do kodu.</p>
+                <p id="a8"></p>
+                <script>
+                    var osoba = {pierwszeImie:"Artur", 
+                    drugieImie:"Michał", 
+                    wiek:"23"}
+                    document.getElementById('a8').innerHTML = "Mam na imię "+ osoba.pierwszeImie + " na drugie mam " + osoba.drugieImie + " i mam " + osoba.wiek + " lata.";
+
+                </script>
+                <hr>
+
+                <p>Zmienne zadeklarowane funkcji JavaScript stają się LOKALNE dla funkcji.
+                Dostęp do zmiennych lokalnych można uzyskać tylko z poziomu funkcji. Ponieważ identyfikator poza funkcją nie jest rozpoznawany, można go użyć w kilku innych funkcjach naraz.</p>
+                <p id="a5"></p>
+                <p id="a6"></p>
+                <p id="a7"></p>
+                <script>
+                    function carname()
+                    {
+                        var carName = "volovo";
+                        document.getElementById("a5").innerHTML = typeof carName + " " + carName;
+                    }
+                    document.getElementById("a6").innerHTML = typeof carName;
+                    document.getElementById("a7").innerHTML = carname;
+                </script>
+                <hr>
+
+                <p>Funkcja "function" ma zastosowanie przy wielokrotnym powtarzaniu tego samego równia, dzięki niej wystarczy, że podstawimy pod równie jedną liczbę a w efekvie dostaniemy wynik całego równia, oto przykłady:</p>
+            <p id="a3"></p>
+            <p id="a4"></p>
+
+            <script>
+                function toCelsius(f) {
+                  return (5/9) * (f-32);
+                }
+                document.getElementById("a3").innerHTML = toCelsius(77);
+                document.getElementById("a4").innerHTML = toCelsius;
+            </script>
+            <hr>
+            <p>Arrays, czyli tabele, lub ciągi, pomagają grupować wartości i przypisywać im numery, zerknij do kodu, by sprawdzić jak to działa.</p>
+            <p id="a2"></p>
+            <script>
+                var kraje = ["Polska","Paragwai","Peru"];
+                document.getElementById("a2").innerHTML = kraje[2];
+            </script>
+                <hr style="color: black;">
+                <p>Generalnie praca z JS jest specyficzna większość pracy jest widoczna w kodzie strony na tomiast na stronie widać pojedyńczy numer który jest efektem kilkunastu linijek kodu w JS, dlatego zachęcam do zaglądania do kodu</p>
+                <br/>
+                <p>Tak samo w tym przypadku, mnożenia zq pomocą funkcji, wytłumaczenie tego słowami bez kodu jest ciężkie więc, zerknij do kodu by dowiedzieć się dlaczego jest widoczny ponniższy wynik </p>
+                <p id="a3"></p>
+                <script>
+                    function myFunction(p1, p2)
+                    {
+                        return p1 * p2;
+                    }
+                    document.getElementById("a3").innerHTML = myFunction(4, 8);
+                </script>
+                <hr>
+
+                <p>Komenda typeof wyświetla informacja na temat tego z jakiego typu daną mamy do czynienia do wyboru mamy poniższe:</p>
+                <p id="a1"></p>
+                <script>
+                    document.getElementById('a1').innerHTML =
+                    typeof "Artur" + "<br/>" + typeof "krzesło" + "<br/>" + typeof true + "<br/>" + typeof u + "<br/>" + typeof null + "<br/>" + typeof [1,2,3];
+                </script>
+                <hr>
+
+                <p>Program czytając pierwszy znak zapisyny jako text a nie działanie matematyczne, przypisuje pozostałym literom funkcje textu. Sprawdźmy co się stanie jeśli odwrucimy kolejność zapisując var xx = 6 + 7 + "5"</p>
+                <p id="abb"></p>
+                <script>
+                    var xx = 6 + 7 + "5";
+                    document.getElementById('abb').innerHTML = xx;
+                </script>
+                <hr>
+
+                <p>Ciekawy efekt powstaje po napisaniu var x = "5" + 6+ 7;</p>
+                <p id="aab"></p>
+                <script>
+                    var x = "5" + 6 + 7;
+                    document.getElementById('aab').innerHTML = x;
+                </script>
+                <hr>
+
+                <p>do var można dodawać nie tylko liczby ale też słowa</p>
+                <p id="aaa"></p>
+                <script>
+                    var aa = "Bratt" + " " + "Pitt";
+                    document.getElementById('aaa').innerHTML = aa;
+                </script>
+                <hr>
+
+                 <p>W tym przykładzie zaprezentuje jak wstawić br pomiędzy dwie funkcje html-a</p>
+                <p id="br"></p>
+                <script>
+                    var A = 7;
+
+                    <!--zwróć uwagę a zapisałem z dużej litery,w JS a i A to dwa zupełnie różne indefikatory-->
+
+                    var B = 3.77;
+
+                    <!--W tej linii za to użyłem liczby nie całkowitej, z którą miałemwcześniej problem bo używałem przecinka a nie kropki -->
+
+                    var C = A + B;
+
+                    document.getElementById('br').innerHTML = C + "<br/>" + A + "<br/>" + B; 
+
+                    <!--W tym przykładzie, mam użytą funkcję br w JS-->
+                </script>
+                <hr>
+
+                <p id="hello"></p>
+                <p id="bye"></p>
+
+                <!-- poniżej mamy użycie klamr w kodzie one 
+                wymuszają na programie, uruchomienie ich 
+                jednocześnie. Przy tym zadaniu miałem pewien
+                problem funkcja pokazująca odpowiedź na 
+                pytanie o sens życia przestała działać
+                ponieważ też korzysta z funkcji myfunction 
+                a ja nie potrafię jeszcze przypisać id do 
+                tej funkcji-->
+
+                <script>
+                    function myFunction() 
+                    {
+                        document.getElementById("hello").innerHTML = "witam cię.";
+                        document.getElementById("bye").innerHTML = "A ja ciebie żegnam w tym samym momęcie.";
+                    }
+                </script>
+                <button type="button" onclick="myFunction()">Kliknij!</button>
+
+                <p id="iop"></p>
+                <!--poniżej w kodzie można zobaczyć inną metodę wprowadzania var, czyli poprostu jeden po drugim argumencie i przy okazji przypomniałem sobie jak pisać komentarze w html-->
+
+                <hr>
+                <script> 
+                    var i, o, p; i = 98; o = -578; p = i + o;
+                    document.getElementById("iop").innerHTML = "Wartość dla p wynosi "+ p +",";
+                </script>
+                <hr>
+
+                <p id="jkl"></p>
+
+                <script>
+                    var j, k, l;
+                    j = 7;
+                    k = -3;
+                    l = j + k;
+                    document.getElementById("jkl").innerHTML = "Wartość l jest równa "+ l +"."
+                </script>
+                <hr>
+            
+                <p>W JS nie ma komęd dotyczących urządzeń zewnętrzych, jedynym wyjątkiem jest zrzut ekranu. (tłumaczone by my self from w3school), niesty do funkcja nie działa w tej aplikacji</p><br/>
+                <button onclick="window.print()">screenshot</button>
+                <p>Kliknij na małą ikonkę śrubokręta i zebatki by otworzyć konsolę</p>
+                <script>
+                    alert('Witam w stronie testowej, poświęconej funkcjom JavaScriptowi')
+                </script>
+                <hr>
+
+                <button type="button" onclick="window.alert('kliknij ok jeśli umierasz z bólu w środku')">Wyświetl alert</button>
+                <h3>Zmiana zdania w html za pomocą JS</h3>
+                <p id="sens">Co jest sensem życia?</p>
+                <button type="button" onclick="sensowna()">odpowiedź</button>
+                <div id="space"></div>
+                <div id="space"></div>
+                <h3 id="demo2">JS może ukryć elementy Html</h3>
+                <button type="button" onclick="getElementById('demo2').style.display='none'">Ukryj</button>
+                <h3>JS może pokazać ukryty elementy Html</h3>
+                <p id="demo" style="display:none">twoja stara też coś ukrywa</p>
+                <button type="button" onclick="getElementById('demo').style.display='block'">Poznaj prawdę</button>
+                <div id="space"></div>
+                <img id="kwejk"src="https://i1.kwejk.pl/k/obrazki/2018/03/57hDYd4SygfOxlkK.jpg"/><br/>
+                <div id="space"></div>
+                <script>
+                    document.write("<h1>Hello Worl JavScript</h1>");
+                    console.log("Hello from console")
+                    document.write("Poniżej widać użycie funkcji var, czyli przypisanie x = 100 na poprosiłem program o wpisanie x na ekranie a jednoczoście przypisałem x jako 100");
+                </script>
+                <br/><br/>
+                <script>
+                    var x = 100;
+                    document.write(x);
+                </script>
+                <br/><br/>
+                
+                <p>A jeszcze poniżej mam mały test w którym słowu test, jest przypisywana funkacja 5+6. W efekcie po napisaniu test widzimy wynik równania.</p>
+                <br/><br/>
+                <script>
+                    var test = 5 + 6;
+                    document.write(test);
+                </script>
+                <br/><br/>
+                Z poniższego efektu chyba jestem najbardziej zadowolony, po kliknięciu inputa zwiększ liczba powyżej się zwiększa, co już powoli zbliża mnie do stworzenia klikadła
+                <br/><br/>
+                <script>
+                    function up()
+                        {
+                            x=++i * 2;
+
+                            document.getElementById('ps').innerHTML = x;
+                        }
+                </script>
+                <script>
+                    var tr = "ps";
+                    var i = 25;
+                    var g = 5;
+                </script>
+                <p id="ps"></p>
+                <button type="button" onclick="up(x)">Zwieksz</button>
+                <br />
+                <br />
+                Many<p id="ps"></p>
+                <button type="button" onclick="More()">Nowa Tura</button>
+                <br/>Tura:<p id="tu"></p>
+                <script>
+                    function More(v)
+                        {
+                            q= tr--;
+                            v=++g;
+                            document.getElementById('tu').innerHTML = v;
+                            document.getElementById('ps').innerHTML = q;
+                        }
+                </script>
+                <br/><br/>
+                </div>
+                <div id="space"></div>
+            </div>
+                <footer id="footer">
+                    Wersja: Beta/1.05.20<br />
+                    Strona napisana na licencji GNU/GPL cały kod dostępny na github pod linkiem <a
+                        href="https://github.com/Arkturhoiii2/Mitgard-2.1" target="_blank"
+                        class="linkc">https://github.com/Arkturhoiii2/Mitgard-2.1</a><br />
+                    Kod strony jest open source, możesz pobierać edytować lub modyfikować kod tej strony.
+                </footer>
+        </body>
+</html>
