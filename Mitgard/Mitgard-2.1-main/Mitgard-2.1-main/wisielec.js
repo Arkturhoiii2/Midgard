@@ -106,7 +106,9 @@ function sprawdz11(nr)
                 document.getElementById(element).style.border = "3px solid #330000";
                 document.getElementById(element).style.cursor = "default";   
                 
-                ile_skuch++;
+                ile_skuch++; 
+                var obraz = "svg/wisielec" + ile_skuch + ".svg";
+                document.getElementById("szubienica_b3").innerHTML = '<img src="'+obraz+'" alt="" height="280px" width="280px" />';
             }
         
 }
