@@ -1,0 +1,695 @@
+body {
+    background-color: white;
+    font-family: Verdana;
+    font-size: 140%;
+    color: white;
+
+}
+
+#topbar {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffc107;
+    text-align: center;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Stopka {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: yellow;
+
+}
+
+#menu {
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana;
+    padding: 20px;
+    clear: both;
+}
+
+#blog {
+    padding-top: 100px;
+    font-size: 50px;
+    font-family: monospace;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    padding-right: 250px;
+    background-color: white;
+}
+
+#blogtitle {
+    font-size: 40x;
+    font-family: monospace;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    color: black;
+    padding-right: 263px
+}
+
+#background {
+    background-color: white;
+}
+
+#blogtext {
+    color: rgb(12, 12, 12);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    float: left;
+    width: 75%;
+    background-color: white;
+    height: 600px;
+    text-align: center;
+    margin-left: 60px;
+}
+
+#blogtext1 {
+    color: rgb(12, 12, 12);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    float: left;
+    width: 80%;
+    background-color: white;
+    height: 600px;
+    text-align: center;
+}
+
+#blogmenu {
+    color: black;
+    float: left;
+    text-align: center;
+    width: 20%;
+    background-color: whitesmoke;
+    height: 600px;
+    text-align: center;
+}
+
+#zegartitle {
+    color: black;
+    background-color: white;
+    height: 600px;
+    width: 1000px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    float: left;
+}
+
+#zegar {
+    float: left;
+
+}
+
+#blogdziennik {
+    color: rgb(12, 12, 12);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    float: left;
+    width: 75%;
+    background-color: white;
+    height: auto;
+    margin-left: 60px;
+}
+
+#zalorzkonto {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+#blogtext2 {
+    color: rgb(12, 12, 12);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    float: left;
+    width: 75%;
+    background-color: white;
+    margin-left: 5%;
+    height: 1500px;
+    text-align: center;
+}
+
+#ogrze {
+    font-weight: 300;
+}
+
+#slider1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+}
+
+#blogtext3 {
+    color: rgb(12, 12, 12);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    float: left;
+    width: 75%;
+    background-color: white;
+    height: auto;
+    text-align: center;
+    padding-top: 80px;
+    margin-left: 5%;
+}
+
+#border {
+    border: 3px;
+    align-content: center;
+}
+
+table {
+    width: 100%;
+    font-size: 11px;
+}
+
+table,
+th,
+td {
+    border: 2px solid #cecece;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+
+#suport1 {
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+    margin-left: 34px;
+}
+
+#suport2 {
+    float: left;
+    width: 40%;
+    text-align: left;
+}
+
+#suport3 {
+    clear: both;
+    padding-top: 30px;
+}
+
+#konto1 {
+    float: left;
+    text-align: right;
+    width: 43%;
+    padding-right: 20px;
+}
+
+#konto2 {
+    float: left;
+    text-align: center;
+}
+
+#konto3 {
+    clear: both;
+}
+
+#blogtext4 {
+    height: 1500px;
+    color: rgb(12, 12, 12);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    width: 75%;
+    background-color: white;
+    padding-top: 80px;
+    float: left;
+    margin-left: 5%;
+    text-align: center
+}
+
+.szachwnica {
+    width: 1170px;
+    border: 3px solid black;
+    margin: 90px auto 0;
+    height: 1170px;
+}
+
+.szachwnica div {
+    float: left;
+    width: 90px;
+    height: 90px;
+}
+
+.szachwnica div:nth-child(even) {
+    background-color: lightgray;
+}
+
+.szachwnica div:nth-child(odd) {
+    background-color: white;
+}
+
+#html {
+    float: left;
+    width: 43%;
+    text-align: right;
+}
+
+#html1 {
+    float: left;
+    padding-left: 10px;
+}
+
+#webstorage {
+    clear: both;
+    text-align: center;
+}
+
+#rejestracja {
+    text-align: center;
+    float: left;
+    width: 50%;
+    color: black;
+    height: auto;
+    font-size: 40px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    font-family: monospace;
+
+}
+
+#rejestracja1 {
+    width: 11%;
+    color: black;
+    float: left;
+    text-align: right;
+    padding-top: 170px;
+    height: 170px;
+}
+
+#rejestracja2 {
+    padding-left: 3px;
+    width: 10%;
+    color: black;
+    float: left;
+    text-align: left;
+    padding-top: 170px;
+    height: 170px;
+}
+
+#rejestracja3 {
+    height: 100px;
+    width: 30%;
+    float: left;
+    padding-top: 20px;
+    padding-left: 70px;
+    font-size: 35px;
+    padding-bottom: 170px;
+
+}
+
+#rejestracja0 {
+    height: auto;
+}
+
+.svgokna {
+    position: center;
+    width: 50%;
+    float: left;
+    background-color: white;
+}
+
+.svgokna2 {
+    float: left;
+    width: 38%;
+    height: 200px;
+    text-align: left;
+    margin: 4% 4% 4% 4%;
+    padding-left: 15px;
+    border-left: 3px solid black;
+    height: 30%;
+    background-color: rgb(241, 241, 241);
+}
+
+.titlesvg {
+    clear: both;
+}
+
+.okno {
+    background-color: rgb(231, 233, 253);
+    clear: both;
+    border: 2px solid black
+}
+
+#okno1 {
+    text-align: left;
+    float: left;
+}
+
+#okno2 {
+    float: left;
+    width: 33%;
+    height: 140px;
+    text-align: left;
+}
+
+#okno3 {
+    height: auto;
+}
+
+#okno4 {
+    width: 26%;
+    float: left;
+    height: 140px;
+}
+
+.przerwa {
+    height: 80px;
+    clear: both;
+}
+
+.fill {
+    background-image: url('http://source.unsplash.com/random/150x150');
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+}
+
+.empty {
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    margin: 10px;
+    border: 3px black solid;
+    background-color: linen;
+}
+
+.hold {
+    border: solid lightgray 4px;
+}
+
+.hovered {
+    background: f4f4f4;
+    border-style: dashed;
+}
+
+.invisible {
+    display: none;
+}
+
+#container {
+    background-color: #303030;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+.rectangle {
+    background-color: #303030;
+    padding: 1% 0% 1% 0%;
+    width: 100%;
+    height: auto;
+}
+
+#logo {
+    padding: 1% 0% 1% 0%;
+    background-color: #303030;
+    height: 40px;
+    float: left;
+    width: 49%;
+    font-family: monospace;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.clear {
+    clear: both;
+}
+
+#zegar2 {
+    padding: 1% 0% 1% 0%;
+    text-align: center;
+    float: left;
+    height: 40px;
+    background-color: #303030;
+    width: 49%;
+    font-size: 50px;
+    margin-left: 2%;
+    font-weight: 600;
+    border: 1px;
+    color: white
+}
+
+.title1 {
+    height: 142px;
+    margin: 2%;
+    background-color: #3095d3;
+    width: 46%;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+.title1:hover {
+    background-color: #2084c2;
+
+}
+
+#title2 {
+    height: 142px;
+    margin: 2%;
+    background-color: #666666;
+    width: 46%;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+#title2:hover {
+    background-color: #555555;
+}
+
+#title3 {
+    height: 142px;
+    margin: 2%;
+    background-color: #93c748;
+    width: 46%;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+#title3:hover {
+    background-color: #82b637;
+}
+
+#title4 {
+    height: 142px;
+    margin: 2%;
+    background-color: #ee5a32;
+    width: 96%;
+    float: left;
+    text-align: center;
+}
+
+#title5 {
+    height: 273px;
+    margin: 2%;
+    background-color: gray;
+    width: 90%;
+    text-align: center;
+    color: white;
+    padding: 3%;
+    line-height: 24px;
+}
+
+#ikongm {
+    height: 142px;
+    margin: 2%;
+
+    background-color: #B23121;
+    width: 21%;
+    float: left;
+}
+
+#ikongm:hover {
+    background-color: #A12010;
+}
+
+#ikontw {
+    height: 142px;
+    margin: 2%;
+    background-color: #1DA1F2;
+    width: 21%;
+    float: left;
+}
+
+#ikontw:hover {
+    background-color: #0d91e3;
+}
+
+#ikontl {
+    height: 142px;
+    margin: 2%;
+    background-color: #0088CC;
+    width: 21%;
+    float: left;
+}
+
+#ikontl:hover {
+    background-color: #007ebd;
+}
+
+#ikonin {
+    height: 142px;
+    margin: 2%;
+    background-color: #2867B2;
+    width: 21%;
+    float: left;
+}
+
+
+#ikonin:hover {
+    background-color: #2857b2;
+}
+
+.square {
+    height: auto;
+    margin: 1%;
+    background-color: #303030;
+    width: 48%;
+    float: left;
+}
+
+
+
+.clear {
+    clear: both;
+    height: 0
+}
+
+#wczytajgre {
+    color: black;
+    padding-bottom: 200px;
+    padding-left: 370px;
+}
+
+#blogtitle1 {
+    font-size: 40x;
+    font-family: monospace;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    color: black;
+}
+
+#blog1 {
+    padding-top: 100px;
+    font-size: 50px;
+    font-family: monospace;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    background-color: white;
+}
+
+#blogtext5 {
+    color: rgb(12, 12, 12);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    width: 100%;
+    background-color: white;
+    height: 600px;
+    text-align: center;
+}
+
+#suport1 {
+    float: left;
+    width: 42%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+#message {
+    height: 150px;
+    width: 300px;
+}
+
+#right {
+    text-align: right;
+}
+
+#op {
+    text-align: left;
+    margin-left: 40%;
+}
+
+.przerwa1 {
+    height: 40px;
+    clear: both;
+}
+
+.przerwa2 {
+    height: 60px;
+    clear: both;
+}
+
+.data {
+    text-align: center;
+}
+
+.przerwa3 {
+    height: 120px;
+}
+
+#blogdziennik1 {
+    text-align: center;
+}
+
+#cytat {
+    padding: 0px 15px 0px 15px;
+    margin: 15px 0px 8px 0px;
+    color: white;
+    font-size: 18px;
+}
+
+#cytat1 {
+    color: white;
+    text-align: right;
+    font-size: 18px;
+    padding-right: 40px;
+    margin-top: 0px;
+    "
+
+}
+
+.przerwablack {
+    background-color: #303030;
+    height: 150px;
+}

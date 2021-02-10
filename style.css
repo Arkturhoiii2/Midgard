@@ -1,0 +1,961 @@
+body {
+    background-color: white;
+    font-family: Verdana;
+    font-size: 140%;
+    color: white;
+    margin: 0px;
+
+}
+
+#topbar {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffc107;
+    text-align: center;
+    border-bottom: 6px solid #000000;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Stopka {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: yellow;
+
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana;
+    padding: 20px;
+    clear: both;
+}
+
+#blog {
+    width: 79%;
+    font-size: 50px;
+    font-family: monospace;
+    text-align: center;
+    color: black;
+    background-color: white;
+    padding: 50px 0px; 
+}
+
+#blogtitle {
+    width: 79%;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+    padding: 40px 0px;
+    color: black;
+    background-color: white;
+}
+
+.background {
+    background-image: url(img/backgroundwhite.png);
+    height: auto;
+    background-repeat: repeat-y;
+}
+
+#blogtext {
+    color: #000000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    float: left;
+    width: 67%;
+    background-color: white;
+    height: auto;
+    text-align: center;
+    padding: 6% 6% 0% 6%;
+}
+
+#blogtext6 {
+    color: #000000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    float: left;
+    width: 67%;
+    background-color: white;
+    height: auto;
+    text-align: center;
+    padding: 6% 6% 0% 6%;
+}
+
+#blogtext1 {
+    color: rgb(12, 12, 12);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    float: left;
+    width: 67%;
+    background-color: white;
+    height: 600px;
+    text-align: center;
+    padding: 6% 6% 0% 6%;
+}
+
+#blogmenu {
+    color: black;
+    float: left;
+    text-align: center;
+    width: 20%;
+    background-color: whitesmoke;
+    height: auto;
+    text-align: center;
+    border: 2px solid #000000;
+    margin-right: auto;
+}
+
+#zegartitle {
+    color: black;
+    background-color: white;
+    height: 600px;
+    width: 1000px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    float: left;
+}
+
+#zegar {
+    float: left;
+
+}
+
+#blogdziennik {
+    color: rgb(12, 12, 12);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    float: left;
+    width: 67%;
+    background-color: white;
+    height: auto;
+    padding: 6% 6% 0% 6%
+}
+
+#zalorzkonto {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+#blogtext2 {
+    color: rgb(12, 12, 12);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    float: left;
+    width: 67%;
+    background-color: white;
+    height: 1500px;
+    text-align: center;
+    padding: 6% 6% 0% 6%;
+}
+
+#ogrze {
+    color: black;
+    font-family: monospace;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 4px solid #000000;
+    width: 74%;
+    margin-left: 7%;
+    padding: 0% 6% 6% 6%;
+}
+
+#slider1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+}
+
+#blogtext3 {
+    color: rgb(12, 12, 12);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    float: left;
+    width: 67%;
+    background-color: white;
+    height: auto;
+    text-align: center;
+    padding: 6% 6% 0% 6%;
+}
+
+#border {
+    border: 3px;
+    align-content: center;
+}
+
+table {
+    width: 100%;
+    font-size: 11px;
+}
+
+table,
+th,
+td {
+    border: 2px solid #cecece;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+
+#suport1 {
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+    margin-left: 34px;
+}
+
+#suport2 {
+    float: left;
+    width: 40%;
+    text-align: left;
+}
+
+#suport3 {
+    clear: both;
+    padding-top: 30px;
+}
+
+#konto1 {
+    float: left;
+    text-align: right;
+    width: 43%;
+    padding-right: 20px;
+}
+
+#konto2 {
+    float: left;
+    text-align: center;
+}
+
+#konto3 {
+    clear: both;
+}
+
+#blogtext4 {
+    height: 1500px;
+    color: rgb(12, 12, 12);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    width: 67%;
+    background-color: white;
+    padding-top: 80px;
+    float: left;
+    padding: 6% 6% 0% 6%;
+    text-align: center
+}
+.szachownicabg {
+    background-image: url(img/backgroundwhite.png)
+}
+.szachwnica {
+    width: 1170px;
+    border: 3px solid black;
+    margin: 0 auto 0;
+    height: 1170px;
+}
+
+.szachwnica div {
+    float: left;
+    width: 90px;
+    height: 90px;
+}
+
+.szachwnica div:nth-child(even) {
+    background-color: lightgray;
+}
+
+.szachwnica div:nth-child(odd) {
+    background-color: white;
+}
+
+#html {
+    float: left;
+    width: 43%;
+    text-align: right;
+}
+
+#html1 {
+    float: left;
+    padding-left: 10px;
+}
+
+#webstorage {
+    clear: both;
+    text-align: center;
+}
+
+#rejestracja {
+    text-align: center;
+    float: left;
+    width: 40%;
+    color: black;
+    height: 310px;
+    font-size: 40px;
+    font-family: monospace;
+    background-color: whitesmoke;
+    margin-left: 10%;
+    border: 4px solid #000000;
+    border-right: 0px
+
+}
+
+#rejestracja1 {
+    width: 190px;
+    color: black;
+    float: left;
+    text-align: right;
+    height: 232px;
+    background-color: whitesmoke;
+    border-top: 4px solid #000000;
+}
+
+#rejestracja2 {
+    padding-left: 4px;
+    width: 296px;
+    color: black;
+    float: left;
+    text-align: left;
+    height: 245px;
+    background-color: whitesmoke;
+    border-top: 4px solid #000000;
+    border-right: 4px solid #000000;
+}
+
+#rejestracja3 {
+    height: 64px;
+    width: 490px;
+    float: left;
+    padding-top: 15px;
+    background-color: whitesmoke;
+    font-size: 35px;
+    border-bottom: 4px solid #000000;
+    border-right: 4px solid #000000;
+    text-align: center;
+}
+
+#svgrejestracja {
+    width: 4px; 
+    height:310px;
+    float: left;
+    border-top: 4px solid #000000;
+    border-bottom: 4px solid #000000;
+}
+
+.svgokna {
+    position: center;
+    width: 50%;
+    float: left;
+    background-color: white;
+}
+
+.svgokna2 {
+    float: left;
+    width: 38%;
+    height: 200px;
+    text-align: left;
+    margin: 4% 4% 4% 4%;
+    padding-left: 15px;
+    border-left: 3px solid black;
+    height: 30%;
+    background-color: rgb(241, 241, 241);
+}
+
+.titlesvg {
+    clear: both;
+}
+
+.okno {
+    background-color: rgb(231, 233, 253);
+    clear: both;
+    border: 2px solid black
+}
+
+#okno1 {
+    text-align: left;
+    float: left;
+}
+
+#okno2 {
+    float: left;
+    width: 33%;
+    height: 140px;
+    text-align: left;
+}
+
+#okno3 {
+    height: auto;
+}
+
+#okno4 {
+    width: 26%;
+    float: left;
+    height: 140px;
+}
+
+.przerwa {
+    height: 80px;
+    clear: both;
+    width: 100%;
+}
+
+.fill {
+    background-image: url('http://source.unsplash.com/random/150x150');
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+}
+
+.empty {
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    margin: 10px;
+    border: 3px black solid;
+    background-color: linen;
+}
+
+.hold {
+    border: solid lightgray 4px;
+}
+
+.hovered {
+    background: f4f4f4;
+    border-style: dashed;
+}
+
+.invisible {
+    display: none;
+}
+
+#container {
+    background-color: #303030;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+.rectangle {
+    background-color: #303030;
+    padding: 1% 0% 1% 0%;
+    width: 100%;
+    height: auto;
+}
+
+#logo {
+    padding: 1% 0% 1% 0%;
+    background-color: #303030;
+    height: 40px;
+    float: left;
+    width: 49%;
+    font-family: monospace;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.clear {
+    clear: both;
+}
+
+#zegar2 {
+    padding: 1% 0% 1% 0%;
+    text-align: center;
+    float: left;
+    height: 40px;
+    background-color: #303030;
+    width: 49%;
+    font-size: 50px;
+    margin-left: 2%;
+    font-weight: 600;
+    border: 1px;
+    color: white
+}
+
+.title1 {
+    height: 142px;
+    margin: 2%;
+    background-color: #3095d3;
+    width: 46%;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+.title1:hover {
+    background-color: #2084c2;
+
+}
+
+#title2 {
+    height: 142px;
+    margin: 2%;
+    background-color: #666666;
+    width: 46%;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+#title2:hover {
+    background-color: #555555;
+}
+
+#title3 {
+    height: 142px;
+    margin: 2%;
+    background-color: #93c748;
+    width: 46%;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+#title3:hover {
+    background-color: #82b637;
+}
+
+#title4 {
+    height: 142px;
+    margin: 2%;
+    background-color: #ee5a32;
+    width: 96%;
+    float: left;
+    text-align: center;
+}
+
+#title5 {
+    height: 273px;
+    margin: 2%;
+    background-color: gray;
+    width: 90%;
+    text-align: center;
+    color: white;
+    padding: 3%;
+    line-height: 24px;
+}
+
+#ikongm {
+    height: 142px;
+    margin: 2%;
+
+    background-color: #B23121;
+    width: 21%;
+    float: left;
+}
+
+#ikongm:hover {
+    background-color: #A12010;
+}
+
+#ikontw {
+    height: 142px;
+    margin: 2%;
+    background-color: #1DA1F2;
+    width: 21%;
+    float: left;
+}
+
+#ikontw:hover {
+    background-color: #0d91e3;
+}
+
+#ikontl {
+    height: 142px;
+    margin: 2%;
+    background-color: #0088CC;
+    width: 21%;
+    float: left;
+}
+
+#ikontl:hover {
+    background-color: #007ebd;
+}
+
+#ikonin {
+    height: 142px;
+    margin: 2%;
+    background-color: #2867B2;
+    width: 21%;
+    float: left;
+}
+
+
+#ikonin:hover {
+    background-color: #2857b2;
+}
+
+.square {
+    height: auto;
+    margin: 1%;
+    background-color: #303030;
+    width: 48%;
+    float: left;
+}
+
+
+
+.clear {
+    clear: both;
+    height: 0
+}
+
+#blogtitle1 {
+    font-size: 40x;
+    font-family: monospace;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    color: black;
+}
+
+#blog1 {
+    font-size: 50px;
+    font-family: monospace;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+
+#blogtext5 {
+    color: rgb(12, 12, 12);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    width: 100%;
+    text-align: center;
+}
+
+#suport1 {
+    float: left;
+    width: 39%;
+    text-align: right;
+}
+
+#message {
+    height: 200px;
+    width: 400px;
+}
+
+#right {
+    text-align: right;
+}
+
+#op {
+    text-align: left;
+    margin-left: 40%;
+}
+
+.przerwa1 {
+    height: 40px;
+    clear: both;
+}
+
+.przerwa2 {
+    height: 60px;
+    clear: both;
+}
+
+.data {
+    text-align: center;
+}
+
+.przerwa3 {
+    height: 120px;
+}
+
+#blogdziennik1 {
+    text-align: center;
+}
+
+#cytat {
+    padding: 0px 15px 0px 15px;
+    margin: 15px 0px 8px 0px;
+    color: white;
+    font-size: 18px;
+}
+
+#cytat1 {
+    color: white;
+    text-align: right;
+    font-size: 18px;
+    padding-right: 40px;
+    margin-top: 0px;
+}
+
+.przerwablack {
+    background-color: #303030;
+    height: 150px;
+}
+
+a.titlelink {
+    color: white;
+    text-decoration: none;
+}
+
+a.linkb {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+a.linkc {
+    color: white;
+    text-decoration: none;
+}
+
+#blogit {
+    color: rgb(12, 12, 12);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    float: left;
+    width: 70%;
+    background-color: white;
+    height: auto;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.przerwax {
+    height: 5px;
+    width: 100%;
+    clear: both;
+}
+
+div#zaloguj1 {
+    background-image: url("img/Zalogujblack.png");
+    border: 3px solid #000000;
+    width: 300px;
+    height: 63px;
+    float: right;
+    margin-right: 1%
+}
+
+div#zaloguj1:hover {
+    background-image: url("img/zaloguj70.png");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 63px;
+}
+
+div#nowagra1 {
+    border: 3px solid #000000;
+    background-image: url("img/nowagrablack.png");
+    width: 300px;
+    height: 63px;
+    float: right;
+    margin-right: 1%
+}
+
+div#nowagra1:hover {
+    background-image: url("img/nowagra70.png");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 63px;
+}
+div#wczytajgre1 {
+        border: 3px solid #000000;
+
+    background-image: url("img/wczytajgreblack.png");
+    width: 300px;
+    height: 63px;
+    float: right;
+    margin-right: 1%
+}
+
+div#wczytajgre1:hover {
+    background-image: url("img/wczytajgre70.png");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 63px;
+}
+
+div#opcje1 {
+    border: 3px solid #000000;
+    background-image: url("img/opcjeblack.png");
+    width: 300px;
+    height: 63px;
+    margin-left: 38%;
+    float: right;
+    margin-right: 1%
+}
+
+div#opcje1:hover {
+    background-image: url("img/Opcje70.png");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 63px;
+}
+
+div#ogrze1 {
+        border: 3px solid #000000;
+
+    background-image: url("img/ogrzeblack.png");
+    width: 300px;
+    height: 63px;
+    margin-left: 1%;
+    float: left;
+}
+
+div#ogrze1:hover {
+    background-image: url("img/ogrze70.png");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 63px;
+}
+
+div#oautorze1 {
+    border: 3px solid #000000;
+    background-image: url("img/oautorzeblack.png");
+    width: 300px;
+    height: 63px;
+    margin-left: 38%;
+    margin-left: 1%;
+    float: left;
+}
+
+div#oautorze1:hover {
+    background-image: url("img/oautorze70.png");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 63px;
+}
+
+div#blog2 {
+    border: 3px solid #000000;
+    background-image: url("img/blogblack.png");
+    width: 300px;
+    height: 63px;
+    margin-left: 38%;
+    margin-left: 1%;
+    float: left;
+}
+
+div#blog2:hover {
+    background-image: url("img/blog70.png");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 63px;
+}
+
+div#suport4 {
+    border: 3px solid #000000;
+    background-image: url("img/suportblack.png");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 63px;
+    margin-left: 38%;
+    margin-left: 1%;
+    float: left;
+}
+
+div#suport4:hover {
+    background-image: url("img/suport70.png");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 63px;
+}
+
+#indexleft {
+    float: left;
+    width: 50%;
+    object-position: right;
+    margin-left: 0px;
+}
+
+#indexright {
+    float: left;
+    width: 50%;
+    object-position: left;
+}
+
+#przerwaindex {
+    height: 200px;
+    clear: both;
+}
+
+#menuindex {
+    background-image: url(img/background.png);
+    width: 100%;
+    height: 630px;
+}
+
+#wczytajgrebox {
+    background-color: whitesmoke;
+    margin: 0% 25%;
+    border: 4px solid #000000
+}
+
+#wczytajgre {
+    color: black;
+    line-height: 19px;
+    padding-left: 6%;
+}
+
+
+.bold {
+    font-weight: normal;
+}
+
+.bold:hover {
+    font-weight: bold;
+}
+
+#opcjebox {
+    color: black; 
+    text-align: center; 
+    background-color: whitesmoke;
+    padding: 40px 0px;
+    margin: 0px 200px;
+    border: 4px solid #000000;
+}
+
+#suportbox {
+    background-color: whitesmoke;
+    border: 4px solid #000000;
+    margin: 0px 200px;
+    padding-top: 50px; 
+}
+
+#zalogujbg1{
+    width: 25%;
+    float: left;
+    height: 400px;
+}
+
+#zalogujbg {
+    background-color: whitesmoke;
+    padding: 40px 0px;
+    width: 49%;
+    float: left;
+    border: 4px solid #000000;
+}
+
+.przerwaclear {
+    height: 100px;
+    background-color: whitesmoke;
+    clear: both;
+    width: 79%
+}
