@@ -4,6 +4,9 @@ haslo = haslo.toUpperCase();
 var dlugosc = haslo.length;
 var ile_skuch = 0;
 
+var yes = new Audio("yes.wav")
+var no = new Audio("no.wav")
+
 var haslo1 = "";
 
 for (i=0; i<dlugosc; i++)
@@ -92,6 +95,7 @@ function sprawdz11(nr)
         }
     if(trafiona == true)
         {
+            yes.play()
             var element = "lit" + nr;
             document.getElementById(element).style.background = "green";
             document.getElementById(element).style.border = "3px solid #003300";
@@ -102,7 +106,8 @@ function sprawdz11(nr)
         }
         else
             {
-                 var element = "lit" + nr;
+                no.play()
+                var element = "lit" + nr;
                 document.getElementById(element).style.background = "red";
                 document.getElementById(element).style.border = "3px solid #330000";
                 document.getElementById(element).style.cursor = "default"; 
@@ -116,6 +121,6 @@ function sprawdz11(nr)
         document.getElementById("alfabet_b4").innerHTML = "Wygrałeś, poprawnie wpisując hasło:" +haslo+ '<br/><br/><span class="reset" onclick="location.reload()" >Jeszcze raz?</span>'
     
         if(ile_skuch>=9)
-        document.getElementById("alfabet_b4").innerHTML = "Przegrałeś:" +haslo+ '<br/><br/><span class="reset" onclick="location.reload()" >Jeszcze raz?</span>'
+        document.getElementById("alfabet_b4").innerHTML = "Przegrałeś:" + '<br/><br/><span class="reset" onclick="location.reload()" >Jeszcze raz?</span>'
     
 }
