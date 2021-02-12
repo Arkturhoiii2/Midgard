@@ -1,4 +1,6 @@
-var cards = ["ciri.png", "geralt.png", "jaskier.png", "jaskier.png", "iorweth.png", "triss.png", "geralt.png", "yen.png", "ciri.png", "triss.png", "yen.png", "iorweth.png"]
+var cards = ["pem.svg", "jim.svg", "michael.svg", "michael.svg", "dwight.svg", "creed.svg", "jim.svg", "mose.svg", "pem.svg", "creed.svg", "mose.svg", "dwight.svg"]
+
+var cards2 =["ciri.png", "geralt.png", "triss.png","iorweth.png", "triss.png","geralt.png", "yen.png","jaskier.png", "jaskier.png", "ciri.png", "iorweth.png", "yen.png"]
 
 //console.log(cards);
 
@@ -38,6 +40,7 @@ var visible_nr;
 var lock = false;
 var pairsLeft = 6;
 
+function
 
 function revealCard(nr)
 {
@@ -88,7 +91,7 @@ function hide2Cards(nr1, nr2)
     
     if(pairsLeft == 0)
        {
-            $('.board').html('<h1>You win!<br/>Done in '+turnCounter+' turns</h1>')
+            $('.board').html('<h1>You win!<br/>Done in '+turnCounter+' turns<br/><br/><span class="reset" onclick="location.reload()">Play Again</span></h1>')
        }
     
     lock = false;
@@ -96,11 +99,11 @@ function hide2Cards(nr1, nr2)
 }
 function restore2Cards(nr1, nr2)
 {
-    $('#c'+nr1).css('background-image', 'url(img/karta.png');
+    $('#c'+nr1).css('background-image', 'url(img/office.svg');
     $('#c'+nr1).addClass('card');
     $('#c'+nr1).removeClass('cardA');
     
-    $('#c'+nr2).css('background-image', 'url(img/karta.png');
+    $('#c'+nr2).css('background-image', 'url(img/office.svg');
     $('#c'+nr2).addClass('card');
     $('#c'+nr2).removeClass('cardA');
     
