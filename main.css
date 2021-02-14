@@ -22,7 +22,7 @@ a:hover   { color: #E9B64A;     transition: all .3s ease-in-out;
 }
 #options {
     background-color: #26282E;
-    border: 5px solid #209781 ;
+    border: 3px solid #209781 ;
     font-family: 'Lobster', sans-serif;
     letter-spacing: 2px;
     font-size: 15px;

@@ -40,7 +40,10 @@ var visible_nr;
 var lock = false;
 var pairsLeft = 6;
 
-function
+function deck2()
+{
+location.reload()
+}
 
 function revealCard(nr)
 {
