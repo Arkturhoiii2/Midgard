@@ -1,0 +1,142 @@
+#ccc {
+    margin: 0px;
+}
+.blockMenu {
+    width: 29%;
+    margin: 3% 3% 0% 0%;
+    height: 200px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    font-family: monospace;
+    color: black;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.blockMenu:hover {
+    border: 5px solid #a29f81;
+    border-radius: 10px;
+}
+.blockMenu3 {
+    width: 29%;
+    margin: 3% 2% 0% 0%;
+    height: 200px;
+    background-color: whitesmoke;
+    float: left;
+    font-family: monospace;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.blockMenu3:hover {
+    border: 5px solid #a29f81;
+    border-radius: 10px;
+}
+.blockMenu1 {
+    width: 29%;
+    margin: 3% 3% 0% 2%;
+    height: 200px;
+    background-color: whitesmoke;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-family: monospace;
+    color: black;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.blockMenu4 {
+    width: 29%;
+    margin: 3% 3% 0% 0%;
+    height: 200px;
+    background-color: whitesmoke;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-family: monospace;
+    color: black;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.blockMenu1:hover {
+    border: 5px solid #a29f81;
+    border-radius: 10px;
+}
+#topbar {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    background-color: #ffc107;
+    text-align: center;
+    border-bottom: 6px inset #000000;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana;
+    padding: 20px;
+    clear: both;
+}
+a.linkc {
+    color: white;
+    text-decoration: none;
+}
+h2.linka{
+    color: black;
+    text-decoration: none;
+}
+#przerwa {
+    height: 150px;
+    clear: both;
+}
+.pp {
+    padding: 0px 20px 20px 20px;
+}
+.pd1 {
+    padding: 0px 20px 6px 20px;
+}
+#pp1 {
+    padding-top: 16px;
+    color:gray
+}
+#pp2 {
+    color: gray;
+}
+#pp3 {
+    color: gray;
+}
+#pp4 {
+    color: gray;
+}
+#pp5 {
+    color: gray;
+}
+#pp6 {
+    color: gray;
+}
+#pp7 {
+    color: gray;
+}
+#pp8 {
+    color: gray;
+}
+#pp9 {
+    color: gray;
+}
+#pp10 {
+    color: gray;
+}
+#pp11 {
+    color: gray;
+}
