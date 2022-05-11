@@ -1,0 +1,66 @@
+.smietnikLeft {
+    width: 29%;
+    margin: 3% 3% 0% 0%;
+    height: 200px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    font-family: monospace;
+    color: black;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.smietnikLeft:hover {
+    border: 5px solid #a29f81;
+    border-radius: 10px;
+}
+.smietnikMiddle {
+    width: 29%;
+    margin: 3% 2% 0% 0%;
+    height: 200px;
+    background-color: whitesmoke;
+    float: left;
+    font-family: monospace;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.smietnikMiddle:hover {
+    border: 5px solid #a29f81;
+    border-radius: 10px;
+}
+.smietnikRight {
+    width: 29%;
+    margin: 3% 3% 0% 2%;
+    height: 200px;
+    background-color: whitesmoke;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-family: monospace;
+    color: black;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.smietnikRight {
+    width: 29%;
+    margin: 3% 3% 0% 0%;
+    height: 200px;
+    background-color: whitesmoke;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-family: monospace;
+    color: black;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.smietnikRight:hover {
+    border: 5px solid #a29f81;
+    border-radius: 10px;
+}
