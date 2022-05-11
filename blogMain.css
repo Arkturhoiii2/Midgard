@@ -67,6 +67,10 @@
     border: 5px solid #a29f81;
     border-radius: 10px;
 }
+.blockMenu4:hover {
+    border: 5px solid #a29f81;
+    border-radius: 10px;
+}
 #topbar {
     margin-left: auto;
     margin-right: auto;
